@@ -5,8 +5,14 @@
 // prettier-ignore
 module.exports = function(yargs, version, handlers) {
   return yargs.strict()
-    .command('sync', 'Sync listings', {}, handlers.handleSync)
-    .command('list', 'List listings', {}, handlers.handleList)
+    .command('accounts', 'All things account-related', {
+      providerEndPoint: {
+        default: 'https://mainnet.infura.io'
+      }
+    }, handlers.handleAccounts)
+    .command('sync', 'Sync event logs and listings to local storage', {}, handlers.handleSync)
+    .command('read', 'Read event logs and listings to local storage', {}, handlers.handleRead)
+    .command('list', 'Print listings', {}, handlers.handleList)
     .option('b', {
       group: 'Chain:',
       alias: 'blockRangeThreshold',
@@ -46,14 +52,14 @@ module.exports = function(yargs, version, handlers) {
       alias: 'removed',
       type: 'boolean',
       conflicts: ['a', 'c', 'w'],
-      describe: 'Show whitelisted listings',
+      describe: 'Show removed listings',
     })
-    .option('all', {
+    .option('A', {
       group: 'Listings:',
       alias: 'all',
       type: 'boolean',
       conflicts: ['a', 'c', 'w'],
-      describe: 'Show all listings states',
+      describe: 'Show all listings',
     })
     .option('reset', {
       group: 'Sync:',
@@ -69,7 +75,6 @@ module.exports = function(yargs, version, handlers) {
     })
     .option('tcr', {
       group: 'Chain:',
-      alias: 'registry',
       type: 'string',
       default: 'adChain',
       describe: 'Select a token-curated registry',

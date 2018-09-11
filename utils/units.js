@@ -1,6 +1,6 @@
 const BNJS = require('bn.js')
 
-const BN = small => new BNJS(small)
+const BN = (small, base = 10) => new BNJS(small, base)
 
 const baseToConvertedUnit = (value, decimal) => {
   if (decimal === 0) {

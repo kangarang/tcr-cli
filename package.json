@@ -11,19 +11,19 @@
   },
   "author": "kangarang",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "bn.js": "4.11.8",
     "date-fns": "1.29.0",
+    "eth-events": "0.4.0",
+    "ethers": "3.0.27",
+    "ethjs": "0.4.0",
     "immutable": "3.8.2",
     "ipfs-mini": "1.1.2",
     "lodash": "4.17.10",
     "lowdb": "1.0.0",
-    "tcr-listings": "0.0.1"
-  },
-  "devDependencies": {
-    "eth-events": "0.3.2",
-    "ethjs": "0.4.0",
     "tape": "4.9.1",
+    "tcr-listings": "0.1.0",
+    "truffle-hdwallet-provider": "0.0.6",
     "yargs": "12.0.1"
   }
 }

@@ -2,15 +2,13 @@
 function pushToDB(db, key, data) {
   console.log(`pushing to ${key} cache...`)
   // Pushes to an array, database[key]
-  return db.get(key).push(JSON.stringify(data)).write()
-  // { key: [otherData, data] }
+  return db.get(key).push(data).write()
 }
 
 function setToDB(db, key, value) {
   console.log(`writing to ${key} cache...`)
   // Set the value of database[key]
-  return db.set(key, JSON.stringify(value)).write()
-  // { key: value, otherKey: 'otherValue' }
+  return db.set(key, value).write()
 }
 
 function getInDB(db, key) {
