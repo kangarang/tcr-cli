@@ -1,44 +1,72 @@
+const boxen = require('boxen')
+
 // ========================
 // Arg and handler mappings
 // ========================
 
+const WELCOME = `
+Welcome to TCR CLI
+
+--help to view available commands
+`
+
 // prettier-ignore
 module.exports = function(yargs, version, handlers) {
   return yargs.strict()
-    .command('accounts', 'All things account-related', {
-      providerEndPoint: {
-        default: 'https://mainnet.infura.io'
-      }
-    }, handlers.handleAccounts)
-    .command('sync', 'Sync event logs and listings to local storage', {}, handlers.handleSync)
-    .command('read', 'Read event logs and listings to local storage', {}, handlers.handleRead)
+    .command('*', '', {}, () => console.log(boxen(WELCOME, { padding: 4, margin: 4, align: 'center', borderStyle: 'classic', borderColor: 'cyan' })))
+    .command('accounts', 'All things account-related', {}, handlers.handleAccounts)
     .command('list', 'Print listings', {}, handlers.handleList)
-    .option('b', {
+    .command('sync', 'Sync event logs and listings to local storage', {}, handlers.handleSync)
+    .command('tx [txHash]', 'Print transaction details', {}, handlers.handleTx)
+    .command('apply [listingID] [data]', 'Apply for listing in the registry', {}, handlers.handleApply)
+    .command('read', 'Read event logs and listings', {}, handlers.handleRead)
+    .option('n', {
       group: 'Chain:',
-      alias: 'blockRangeThreshold',
-      type: 'number',
-      default: 10000,
-      describe: 'Specify a block range threshold',
+      type: ['string', 'number'],
+      alias: 'network',
+      default: 'mainnet',
+      describe: 'Select a network',
     })
-    .option('network', {
+    .option('t', {
       group: 'Chain:',
       type: 'string',
-      default: 'mainnet',
-      describe: 'Choose a network',
+      alias: 'tcr',
+      default: 'adChain',
+      describe: 'Select a token-curated registry',
+    })
+    .option('i', {
+      group: 'Chain:',
+      type: 'string',
+      alias: 'pathIndex',
+      default: '0',
+      describe: 'Select a mnemonic path index for $MNEMONIC',
+    })
+    .option('u', {
+      group: 'Sync:',
+      alias: 'update',
+      type: 'boolean',
+      default: false,
+      describe: 'Update local listings store with past logs',
+    })
+    .option('reset', {
+      group: 'Sync:',
+      type: 'boolean',
+      default: false,
+      describe: 'Reset local listings store with past logs',
     })
     .option('a', {
       group: 'Listings:',
       alias: 'applied',
       type: 'boolean',
       conflicts: ['c', 'w'],
-      describe: 'Show listings in application stage',
+      describe: 'Show application listings',
     })
     .option('c', {
       group: 'Listings:',
       alias: 'challenged',
       type: 'boolean',
       conflicts: ['a', 'w'],
-      describe: 'Show listings in voting stage',
+      describe: 'Show challenged listings',
     })
     .option('w', {
       group: 'Listings:',
@@ -61,24 +89,6 @@ module.exports = function(yargs, version, handlers) {
       conflicts: ['a', 'c', 'w'],
       describe: 'Show all listings',
     })
-    .option('reset', {
-      group: 'Sync:',
-      type: 'boolean',
-      default: false,
-      describe: 'Reset local listings store',
-    })
-    .option('resync', {
-      group: 'Sync:',
-      type: 'boolean',
-      default: false,
-      describe: 'Resync local listings store with past logs',
-    })
-    .option('tcr', {
-      group: 'Chain:',
-      type: 'string',
-      default: 'adChain',
-      describe: 'Select a token-curated registry',
-    })
     .option('v', {
       group: 'Other:',
       alias: 'verbose',
@@ -88,11 +98,11 @@ module.exports = function(yargs, version, handlers) {
     })
     .help('help')
     .alias('help', '?')
-    .showHelpOnFail(false, 'Specify -? or --help for available options')
+    .showHelpOnFail(true, 'Specify -? or --help for available options')
     .wrap(Math.min(120, yargs.terminalWidth()))
     .version(version)
-    .example('tcr sync', 'Get logs and sync TCR listings')
-    .epilog('For more information visit https://github.com/kangarang/tcr-cli')
+    // .example('tcr sync --reset', 'Get past logs & reset the current local store listings')
+    // .epilog('For more information visit https://github.com/kangarang/tcr-cli')
     .check(argv => {
       // if (argv.n.trim() == '') {
       //   throw new Error('Cannot leave network blank; please provide a hostname')
