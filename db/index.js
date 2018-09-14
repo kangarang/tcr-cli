@@ -5,19 +5,47 @@ function pushToDB(db, key, data) {
   return db.get(key).push(data).write()
 }
 
+// Set db[key]
 function setToDB(db, key, value) {
   console.log(`writing to ${key} cache...`)
-  // Set the value of database[key]
   return db.set(key, value).write()
 }
-
+// Get db[key]
 function getInDB(db, key) {
-  // Get the value of database.listings
   return db.get(key).value()
 }
+// Get db.listings
 function getListingsDB(db) {
-  // Get the value of database.listings
   return db.get('listings').value()
+}
+// Set db['tcr-listings']
+function setTcrListings(db, tcr, value) {
+  console.log(`writing to ${tcr} cache...`)
+  return db.set(`${tcr}-listings`, value).write()
+}
+// Get db[tcr'-listings']
+function getListingsByTcr(db, tcr) {
+  return db.get(`${tcr}-listings`).value()
+}
+
+function downloadCSV(args) {
+  var data, filename, link
+  var csv = convertArrayOfObjectsToCSV({
+    data: stockData,
+  })
+  if (csv == null) return
+
+  filename = args.filename || 'export.csv'
+
+  if (!csv.match(/^data:text\/csv/i)) {
+    csv = 'data:text/csv;charset=utf-8,' + csv
+  }
+  data = encodeURI(csv)
+
+  link = document.createElement('a')
+  link.setAttribute('href', data)
+  link.setAttribute('download', filename)
+  link.click()
 }
 
 module.exports = {
@@ -25,4 +53,7 @@ module.exports = {
   getListingsDB,
   setToDB,
   getInDB,
+  getListingsByTcr,
+  setTcrListings,
+  downloadCSV,
 }
