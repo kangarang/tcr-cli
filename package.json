@@ -14,18 +14,18 @@
   "dependencies": {
     "boxen": "2.0.0",
     "date-fns": "1.29.0",
-    "eth-events": "0.4.0",
+    "eth-events": "0.5.0",
     "ethers": "3.0.27",
     "immutable": "3.8.2",
     "ipfs-mini": "1.1.2",
     "lodash": "4.17.10",
     "lowdb": "1.0.0",
-    "prettier": "1.14.2",
     "signale": "1.3.0",
     "tcr-listings": "0.1.0",
     "yargs": "12.0.2"
   },
   "devDependencies": {
+    "prettier": "1.14.2",
     "tape": "4.9.1"
   }
 }

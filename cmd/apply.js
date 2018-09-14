@@ -18,14 +18,14 @@ signale.config({
 
 // Apply for listing in the registry
 async function handleApply(argv) {
-  const { listingID, verbose, network, data } = argv
+  const { listingID, verbose, data } = argv
   // Print account / network info
   if (verbose) {
     await handleBalances(argv)
   }
 
   // Wallet / network provider / contracts
-  const { registry, token, parameterizer, signerProvider } = await getAllContracts(argv)
+  const { registry, token, parameterizer, signerProvider, network } = await getAllContracts(argv)
   const registryName = await registry.functions.name()
   const minDeposit = await parameterizer.functions.get('minDeposit')
   const convertedNumTokens = minDeposit.toString()
