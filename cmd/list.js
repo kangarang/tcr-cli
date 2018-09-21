@@ -4,12 +4,12 @@ const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 
 const { printListings } = require('../lib/print')
-const { getListings } = require('../db')
+const { getFromDB } = require('../db')
 const adapter = new FileSync(path.resolve(__dirname, '../db/listings.json'))
 const db = low(adapter)
 
 async function handleList(argv) {
-  const listings = getListings(db, argv.tcr)
+  const listings = getFromDB(db, argv.tcr)
   const arrayListings = Object.keys(listings || {}).map(liHash => listings[liHash])
   // prettier-ignore
   // filter by status
