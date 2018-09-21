@@ -6,6 +6,7 @@ const { handleApprove } = require('./approve')
 const { handleApply } = require('./apply')
 const { handleCommitVote } = require('./commitVote')
 const { handleRevealVote } = require('./revealVote')
+const { handleClaimReward } = require('./claimReward')
 const { handleRescueTokens } = require('./rescueTokens')
 const { handleUpdateStatus } = require('./updateStatus')
 const { handleChallenge } = require('./challenge')
@@ -21,6 +22,7 @@ module.exports = {
   handleCommitVote,
   handleRevealVote,
   handleRescueTokens,
+  handleClaimReward,
   handleUpdateStatus,
   handleChallenge,
   handleBalances,

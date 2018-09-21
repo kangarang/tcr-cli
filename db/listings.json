@@ -99,6 +99,20 @@
       "revealEndDate": "1534562998",
       "listingID": "iamfraud.com"
     },
+    "0x81741e7eee11d3aa4b822054d30e7bc6260b63c82fdeb0ac573e42a917000cca": {
+      "listingHash": "0x81741e7eee11d3aa4b822054d30e7bc6260b63c82fdeb0ac573e42a917000cca",
+      "listingID": "marthastewart.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538089140",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x37b2914ed5f1feef06657df6630fb2080c6e3c6b5570fb82f87ad86de1a39cfe",
+        "logIndex": 14,
+        "blockNumber": 6369142,
+        "blockTimestamp": 1537484340
+      }
+    },
     "0xbfd381351663a16613f2253f899cd5221686666505822d02445165dd9fd091fb": {
       "latestBlockTxn": {
         "txHash": "0x1ad56cf466037f6d56d0706f153e4993a143b57732e5745fa83daba1c461cd91",
@@ -113,6 +127,20 @@
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "wikia.com"
+    },
+    "0x98a325d9159481daea021506af19b82910ce85f80d66e4ea232bbded331161a4": {
+      "listingHash": "0x98a325d9159481daea021506af19b82910ce85f80d66e4ea232bbded331161a4",
+      "listingID": "shape.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538165248",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xe2bfa171daabd3277a05d052c29a0f5270c8b12a6adf1a58b0f5c8210ae48c46",
+        "logIndex": 33,
+        "blockNumber": 6374409,
+        "blockTimestamp": 1537560448
+      }
     },
     "0x3f8ad8a92f687086de9d792bdf19203caf8b729761d9f5875622a14a6f98d56f": {
       "latestBlockTxn": {
@@ -169,6 +197,20 @@
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "linkedin.com"
+    },
+    "0xf5d2f479df8606dcaf30e1d56b857fa1a81c64a9323944dceb5f9036ff73d73a": {
+      "listingHash": "0xf5d2f479df8606dcaf30e1d56b857fa1a81c64a9323944dceb5f9036ff73d73a",
+      "listingID": "si.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538089408",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x76b6921dadb7d7806b3ba549ce4c974ab5692b6bfa7e80323cedc59f13c3f743",
+        "logIndex": 21,
+        "blockNumber": 6369152,
+        "blockTimestamp": 1537484608
+      }
     },
     "0xe701ba26f4f371e401a8bade47b75108184af0e02803a0a34181d86c9fd94c80": {
       "latestBlockTxn": {
@@ -296,6 +338,20 @@
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "hearst.com"
+    },
+    "0x66ef9c6ee1752096e55f4fe87cf066fa92992e1082c8986fdfb43a8327d558e5": {
+      "listingHash": "0x66ef9c6ee1752096e55f4fe87cf066fa92992e1082c8986fdfb43a8327d558e5",
+      "listingID": "allrecipes.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538087820",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xc715264ab14c2add4634961c71bef536536dea585ea9b21b883b09c95cf79600",
+        "logIndex": 15,
+        "blockNumber": 6369046,
+        "blockTimestamp": 1537483020
+      }
     },
     "0xc432dcf36cfbe213a836700ba24f67e740327a077966beb25ee759a2fd8ae804": {
       "votesFor": "2700000000000000",
@@ -602,6 +658,34 @@
       "revealEndDate": "1536426530",
       "listingID": "iotex.io"
     },
+    "0xa8b09606372232bd820fd7c8214376822189831b422aae33514c848a4f53c025": {
+      "listingHash": "0xa8b09606372232bd820fd7c8214376822189831b422aae33514c848a4f53c025",
+      "listingID": "buzzfeed.com",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "status": "applied",
+      "appEndDate": "1537735303",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x6b76ce4c2b96453521319d057ec66ed1bd70c2bc87517318ee47b8225fefe4c9",
+        "logIndex": 100,
+        "blockNumber": 6344394,
+        "blockTimestamp": 1537130503
+      }
+    },
+    "0xe7aa8a32bce3f52d4daff8e2f03aecd89575dced08dd9f78ad9580cd69191e73": {
+      "listingHash": "0xe7aa8a32bce3f52d4daff8e2f03aecd89575dced08dd9f78ad9580cd69191e73",
+      "listingID": "fortune.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538164434",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x4d4af64bf61f9665931c8f16dd8d966afeb789b3a0881936a04e0a36fc4e529f",
+        "logIndex": 12,
+        "blockNumber": 6374350,
+        "blockTimestamp": 1537559634
+      }
+    },
     "0x2ac5f4c87580b493fb20032033ae46c965848b6ffbd011467193c923286bb6da": {
       "latestBlockTxn": {
         "txHash": "0xe76b2a212697e27e8b69c577f5dfdec8f29f272d28c21ef8c35150154b270b04",
@@ -704,6 +788,20 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "reddit.com"
     },
+    "0x4e11bc306fde85e1c62e8e183cc77ce2787a097d0ebbe103e0cc1d0b364418d2": {
+      "listingHash": "0x4e11bc306fde85e1c62e8e183cc77ce2787a097d0ebbe103e0cc1d0b364418d2",
+      "listingID": "espn.com",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "status": "applied",
+      "appEndDate": "1537734902",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xb30aedd83d385612ec180a0c1d1dcca136fccf694530b0b29277649b64bce355",
+        "logIndex": 163,
+        "blockNumber": 6344361,
+        "blockTimestamp": 1537130102
+      }
+    },
     "0x182ee49f31b64e106b7f5e942b12ee3b3e1a74534181d6eba5d71451b9141aeb": {
       "latestBlockTxn": {
         "txHash": "0xcab725fe16ca71a7c423521979c73a2a6e391b4876c6a867da65190da543dbd5",
@@ -718,6 +816,45 @@
       "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "marketwatch.com"
+    },
+    "0xb82b112bddb0f6398a94aac334979c7a135c733db542ecf4a39c17ff8b3e1c79": {
+      "listingHash": "0xb82b112bddb0f6398a94aac334979c7a135c733db542ecf4a39c17ff8b3e1c79",
+      "listingID": "parenting.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538164901",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xa648cfadc6e5fe51e3b0e7057610df640746f62523b2490736f2fd37691101cd",
+        "logIndex": 65,
+        "blockNumber": 6374381,
+        "blockTimestamp": 1537560101
+      }
+    },
+    "0xcd7881a4bdb34a014b6d9e79de96990cc6064466ba3a1c802240303b4d74be61": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x6fd56f75327ca601435696ded6c65ef981b936cdf415b9a84705a5c94129cdff",
+        "logIndex": 28,
+        "blockNumber": 6373309,
+        "blockTimestamp": 1537545136
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1538089649",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "listingHash": "0xcd7881a4bdb34a014b6d9e79de96990cc6064466ba3a1c802240303b4d74be61",
+      "commitEndDate": "1537976771",
+      "status": "challenged",
+      "votesCommitted": "100000000000000",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "latestEvent": "_VoteCommitted",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "28",
+      "votesTotal": "0",
+      "revealEndDate": "1538408771",
+      "listingID": "parents.com"
     },
     "0x823fc1795ee567bde5d945de9fbdb354a1ea9fabc4beaddfc32e1192c7183001": {
       "latestBlockTxn": {
@@ -967,6 +1104,20 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "forbes.com"
     },
+    "0xf06793800184d8edfe1d6ad8d4e2a0f28d68593401f78baf8e2a4c659fbc3fca": {
+      "listingHash": "0xf06793800184d8edfe1d6ad8d4e2a0f28d68593401f78baf8e2a4c659fbc3fca",
+      "listingID": "time.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538088188",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xa4a2ef0e0b30a05ce8781e96faef53b83fe5a537300d2ce0c93c9d774888da37",
+        "logIndex": 10,
+        "blockNumber": 6369069,
+        "blockTimestamp": 1537483388
+      }
+    },
     "0x312b991aa6c9b63acfdee8fa2cabc417f5781be810157997f1e1fc50d026195e": {
       "latestBlockTxn": {
         "txHash": "0x2493fbe368f82b284839a61b601f4c1d64f3de2bfb4bfa143a436799ccb6525f",
@@ -1022,6 +1173,20 @@
       "owner": "0xEEd81E14673370599f2abA7217DAa7dE4A5B4B77",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "bitcoinmagazine.com"
+    },
+    "0x6876c2d18855e9348ba2757837d04f20eb360f3c37fad91e2057e6291642eeef": {
+      "listingHash": "0x6876c2d18855e9348ba2757837d04f20eb360f3c37fad91e2057e6291642eeef",
+      "listingID": "bhg.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538088891",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xfaf62b1244de2dd452c3663e5a6bc52eb47d84ae57e47f2667b4f516a1b426a2",
+        "logIndex": 24,
+        "blockNumber": 6369130,
+        "blockTimestamp": 1537484091
+      }
     },
     "0x66f642ea5ce07f51afdb481431e63e695001f6f63053fa590a0a3c1b2d3b2be6": {
       "latestBlockTxn": {
@@ -1279,22 +1444,24 @@
     "0x3ce43ebc97d970d375329ca8b7784ae92a9c9034e23f6e5fcbd9b51d8249b6f3": {
       "votesFor": "0",
       "latestBlockTxn": {
-        "txHash": "0x1400c5267a9236d38fa446a178e0ae22a1f7f25d17a679c98020b48a8cb98307",
-        "logIndex": 2,
-        "blockNumber": 3026054,
-        "blockTimestamp": 1537517598
+        "txHash": "0xe099852eb2ba69618f748bc8b00a354d0f40fea0ff39df232fcd80855bdacab1",
+        "logIndex": 45,
+        "blockNumber": 3028650,
+        "blockTimestamp": 1537556538
       },
       "tokensToClaim": false,
       "appEndDate": "1537515633",
+      "removedBlockTimestamp": "1537556538",
       "data": "five",
       "userVoteNumTokens": "0",
       "challenger": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
+      "whitelistBlockTimestamp": false,
       "listingHash": "0x3ce43ebc97d970d375329ca8b7784ae92a9c9034e23f6e5fcbd9b51d8249b6f3",
       "commitEndDate": "1537518093",
-      "status": "challenged",
-      "votesCommitted": "5000000000000000000000",
+      "status": "removed",
+      "votesCommitted": "0",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
-      "latestEvent": "_VoteCommitted",
+      "latestEvent": "_ChallengeSucceeded",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "5",
@@ -1303,28 +1470,29 @@
       "listingID": "five"
     },
     "0xc2c8651ce9ad725a399bfe851a6bb59937357e76f9e946b0a17c7752b331dedb": {
-      "votesFor": "420420000000000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
-        "txHash": "0x74a3b0172f6c035c15770ab4312da6f0a4b9d02b1f459b843739906ad01c0620",
-        "logIndex": 4,
-        "blockNumber": 3028157,
-        "blockTimestamp": 1537549143
+        "txHash": "0xc245db495215d069ccbce680b203e379f231e3262d0fe3436e71b97ce6fb82cd",
+        "logIndex": 9,
+        "blockNumber": 3028647,
+        "blockTimestamp": 1537556493
       },
       "tokensToClaim": false,
       "appEndDate": "1537518123",
       "data": "six",
-      "userVoteNumTokens": "420420000000000000000000",
+      "userVoteNumTokens": "0",
       "challenger": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
+      "whitelistBlockTimestamp": "1537556493",
       "listingHash": "0xc2c8651ce9ad725a399bfe851a6bb59937357e76f9e946b0a17c7752b331dedb",
       "commitEndDate": "1537548858",
-      "status": "challenged",
-      "votesCommitted": "420420000000000000000000",
+      "status": "whitelisted",
+      "votesCommitted": "0",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
-      "latestEvent": "_VoteRevealed",
-      "userVoteChoice": "1",
+      "latestEvent": "_ChallengeFailed",
+      "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "6",
-      "votesTotal": "420420000000000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1537549458",
       "listingID": "six"
     },

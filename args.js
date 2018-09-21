@@ -33,6 +33,7 @@ module.exports = function(yargs, version, handlers) {
     .command('commit [listingID] [voteOption] [numTokens]', 'Commit a vote to a poll', {}, handlers.handleCommitVote)
     .command('reveal [listingID]', 'Commit a vote to a poll', {}, handlers.handleRevealVote)
     .command('update [listingID]', 'Update status for a listing', {}, handlers.handleUpdateStatus)
+    // .command('claim [listingID]', 'Claim reward for a listing', {}, handlers.handleClaimReward)
     .command('rescue [listingID]', 'Rescue tokens from a poll', {}, handlers.handleRescueTokens)
     .command('tx [txHash]', 'Print transaction details', {}, handlers.handleTx)
     .command('read', 'Read event logs and listings', {}, handlers.handleRead)
