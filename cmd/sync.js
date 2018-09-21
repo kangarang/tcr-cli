@@ -125,7 +125,7 @@ async function handleSync(argv) {
   // Create / update listings
   const tcrListings = new TCRListings(
     [Registry.address, Voting.address],
-    '0x6C439E156C0571b9e9174C4AC440018515dea1F4'
+    '0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7'
   )
   const listingsMap = await tcrListings.getListings(
     applicationLogs,

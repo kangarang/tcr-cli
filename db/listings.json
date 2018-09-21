@@ -1191,7 +1191,7 @@
       "pollID": "1",
       "votesTotal": "0",
       "revealEndDate": "1537513578",
-      "listingID": "one"
+      "listingID": "test"
     },
     "0x332c39dcd398ea34a48b871898d589f55fc4c7bce00562fb670c972e7e1b0720": {
       "votesFor": "0",
@@ -1211,7 +1211,7 @@
       "listingHash": "0x332c39dcd398ea34a48b871898d589f55fc4c7bce00562fb670c972e7e1b0720",
       "commitEndDate": "1537513983",
       "status": "removed",
-      "votesCommitted": "50000000000000000000000",
+      "votesCommitted": "0",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
       "latestEvent": "_ChallengeSucceeded",
       "userVoteChoice": "",
@@ -1239,7 +1239,7 @@
       "listingHash": "0x89027a4db8d1d3a0787296eb1553fba0dc506f981f9697f1a66994c458d392b5",
       "commitEndDate": "1537514928",
       "status": "removed",
-      "votesCommitted": "85000000000000000000000",
+      "votesCommitted": "0",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
       "latestEvent": "_ChallengeSucceeded",
       "userVoteChoice": "",
@@ -1250,7 +1250,7 @@
       "listingID": "three"
     },
     "0x923481f620daa64206c8ec933566224c317f9deb5e271ddf71b4f1e7de758f67": {
-      "votesFor": "4444000000000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x16da17666bac210ea38b3a8464d2ee434ef24fec8a0b19f3de09d606ba326948",
         "logIndex": 5,
@@ -1266,13 +1266,13 @@
       "listingHash": "0x923481f620daa64206c8ec933566224c317f9deb5e271ddf71b4f1e7de758f67",
       "commitEndDate": "1537515663",
       "status": "whitelisted",
-      "votesCommitted": "16789000000000000000000",
+      "votesCommitted": "0",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
       "latestEvent": "_ChallengeFailed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "4",
-      "votesTotal": "4444000000000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1537516263",
       "listingID": "four"
     },
@@ -1303,28 +1303,28 @@
       "listingID": "five"
     },
     "0xc2c8651ce9ad725a399bfe851a6bb59937357e76f9e946b0a17c7752b331dedb": {
-      "votesFor": "0",
+      "votesFor": "420420000000000000000000",
       "latestBlockTxn": {
-        "txHash": "0x3c203cbf50049874fecdc5aa0b1106764c1dc3c3f4a359d3210413cc9b7cfa30",
-        "logIndex": 8,
-        "blockNumber": 3028105,
-        "blockTimestamp": 1537548363
+        "txHash": "0x74a3b0172f6c035c15770ab4312da6f0a4b9d02b1f459b843739906ad01c0620",
+        "logIndex": 4,
+        "blockNumber": 3028157,
+        "blockTimestamp": 1537549143
       },
       "tokensToClaim": false,
       "appEndDate": "1537518123",
       "data": "six",
-      "userVoteNumTokens": "0",
+      "userVoteNumTokens": "420420000000000000000000",
       "challenger": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
       "listingHash": "0xc2c8651ce9ad725a399bfe851a6bb59937357e76f9e946b0a17c7752b331dedb",
       "commitEndDate": "1537548858",
       "status": "challenged",
       "votesCommitted": "420420000000000000000000",
       "owner": "0xD09cc3Bc67E4294c4A446d8e4a2934a921410eD7",
-      "latestEvent": "_VoteCommitted",
-      "userVoteChoice": "",
+      "latestEvent": "_VoteRevealed",
+      "userVoteChoice": "1",
       "votesAgainst": "0",
       "pollID": "6",
-      "votesTotal": "0",
+      "votesTotal": "420420000000000000000000",
       "revealEndDate": "1537549458",
       "listingID": "six"
     },

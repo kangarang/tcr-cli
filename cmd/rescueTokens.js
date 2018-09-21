@@ -9,11 +9,9 @@ const { getAllContracts } = require('../lib/contracts')
 const { getFromDB } = require('../db')
 const adapter = new FileSync(path.resolve(__dirname, '../db/listings.json'))
 const db = low(adapter)
-const votAdapter = new FileSync(path.resolve(__dirname, '../db/votes.json'))
-const votDb = low(votAdapter)
 
 // Apply for listing in the registry
-async function handleRevealVote(argv) {
+async function handleRescueTokens(argv) {
   const { listingID, verbose, tcr } = argv
   const listings = getFromDB(db, tcr)
   const listingsArray = Object.keys(listings).map(listingHash => listings[listingHash])
@@ -25,13 +23,10 @@ async function handleRevealVote(argv) {
 
   // Wallet / network provider / contracts
   const { voting, signerProvider, network } = await getAllContracts(argv)
-  const commit = getFromDB(votDb, `${tcr}.${pollID}`)
-  const salt = commit.salt
-  const args = [pollID, commit.voteOption, salt]
 
-  const methodSignature = voting.interface.functions.revealVote.signature
+  const methodSignature = voting.interface.functions.rescueTokens.signature
   // Print tx details
-  printTxStart(methodSignature, args, 'PLCRVoting', voting, network)
+  printTxStart(methodSignature, [pollID], 'PLCRVoting', voting, network)
 
   // Revert if mainnet
   if (network === 'mainnet') {
@@ -39,7 +34,7 @@ async function handleRevealVote(argv) {
     return
   }
   // Send tx
-  const tx = await voting.functions.revealVote(...args)
+  const tx = await voting.functions.rescueTokens(pollID)
 
   // Wait for tx mining
   printTxMining(tx)
@@ -57,5 +52,5 @@ async function handleRevealVote(argv) {
 }
 
 module.exports = {
-  handleRevealVote,
+  handleRescueTokens,
 }
