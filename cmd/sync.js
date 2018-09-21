@@ -9,15 +9,15 @@ const TCRListings = require('tcr-listings')
 const { getContract } = require('../lib/contracts')
 const { BN, isBigNumber } = require('../lib/units')
 const { getSortedLogs } = require('./logs')
-const { setListings, getListings } = require('../db')
+const { setToDB, getFromDB } = require('../db')
 const { writeFile } = require('../lib/files')
 
 const adapter = new FileSync(path.resolve(__dirname, '../db/listings.json'))
 const db = low(adapter)
 db.defaults({
-  'adChain': {},
-  'ethaireum': {},
-  'cpl': {},
+  adChain: {},
+  ethaireum: {},
+  cpl: {},
 }).write()
 
 // Convert BN -> String for local storage
@@ -35,7 +35,7 @@ function sanitizeBigNumbersFromLogs(logs) {
 async function handleSync(argv) {
   const { reset, update, tcr, save, verbose } = argv
   // Get local listings DB
-  const localListings = reset ? {} : getListings(db, tcr)
+  const localListings = reset ? {} : getFromDB(db, tcr)
   // Convert to array
   const localListingsArray = Object.keys(localListings).map(
     listingHash => localListings[listingHash]
@@ -57,6 +57,11 @@ async function handleSync(argv) {
     //   localListingsArray[localListingsArray.length - 1].latestBlockTxn.blockNumber
     // console.log(' fromBlock, startBlock:', fromBlock, startBlock)
   }
+
+  // const Token = await getContract(tcr, 'token')
+  // const tokLogs = await getSortedLogs(Token, { fromBlock })
+  // const stringTokLogs = sanitizeBigNumbersFromLogs(tokLogs)
+  // writeFile(`./db/logs/${tcr}/tokLogs.json`, stringTokLogs)
 
   // Registry logs
   const Registry = await getContract(tcr, 'registry')
@@ -104,7 +109,10 @@ async function handleSync(argv) {
 
   if (verbose) {
     console.log('Last vot log:', votLogs[votLogs.length - 1].eventName)
-    console.log('Last non-app log:', nonApplicationLogs[nonApplicationLogs.length - 1].eventName)
+    console.log(
+      'Last non-app log:',
+      nonApplicationLogs[nonApplicationLogs.length - 1].eventName
+    )
   }
 
   if (save) {
@@ -131,7 +139,7 @@ async function handleSync(argv) {
 
   // Write to cache
   // NOTE: THIS WILL OVERWRITE
-  setListings(db, tcr, listingsMap.toJS())
+  setToDB(db, tcr, listingsMap.toJS())
 }
 
 module.exports = {
