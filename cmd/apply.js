@@ -1,20 +1,7 @@
-const { Signale } = require('signale')
-
 const { handleBalances } = require('./accounts')
 const { getListingHash } = require('../lib/values')
-const { printTxStart, printTxSuccess } = require('../lib/print')
+const { printTxStart, printTxMining, printError, printTxSuccess } = require('../lib/print')
 const { getAllContracts } = require('../lib/contracts')
-
-const sigOptions = {
-  interactive: true,
-  stream: process.stdout,
-}
-
-const signale = new Signale(sigOptions)
-signale.config({
-  displayTimestamp: true,
-  displayFilename: true,
-})
 
 // Apply for listing in the registry
 async function handleApply(argv) {
@@ -32,7 +19,7 @@ async function handleApply(argv) {
 
   // Package tx args
   const listingHash = getListingHash(listingID)
-  let args = [listingHash, convertedNumTokens, listingID, data]
+  let args = [listingHash, convertedNumTokens, listingID]
 
   const methodSignature = registry.interface.functions.apply.signature
   // Print tx details
@@ -51,24 +38,23 @@ async function handleApply(argv) {
   // }, 1000)
 
   // Send tx
-  signale.start('[%d/3] - Sending transaction', 1)
   const tx = await registry.functions.apply(...args)
 
   // Wait for tx mining
-  signale.await('[%d/3] - Waiting for mining', 2)
+  printTxMining(tx)
   await tx.wait()
 
   // Get tx receipt
   const receipt = await signerProvider.provider.getTransactionReceipt(tx.hash)
   if (receipt.status !== 1) {
     // Error during send tx
-    signale.error('[%d/3] - Error while processing transaction', 3)
-    console.log('')
+    printError(receipt)
     return
   }
 
   // Successfully mined tx
-  signale.success('[%d/3] - Successful transaction!', 3)
+  printTxSuccess(receipt)
+
   // let etherscanLink = `https://${network}.etherscan.io/tx/${receipt.transactionHash}`
   // if (network === 'mainnet') {
   //   etherscanLink = `https://etherscan.io/tx/${receipt.transactionHash}`
@@ -78,8 +64,6 @@ async function handleApply(argv) {
   //   etherscanLink
   // )
   // spinner.succeed('TRANSACTION SUCCEEDED!')
-
-  printTxSuccess(receipt)
 }
 
 function sendPackagedTransaction() {

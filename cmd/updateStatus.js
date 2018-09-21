@@ -1,20 +1,7 @@
-const { Signale } = require('signale')
-
 const { handleBalances } = require('./accounts')
 const { getListingHash } = require('../lib/values')
-const { printTxStart, printTxSuccess } = require('../lib/print')
+const { printTxStart, printTxMining, printError, printTxSuccess } = require('../lib/print')
 const { getAllContracts } = require('../lib/contracts')
-
-const sigOptions = {
-  interactive: true,
-  stream: process.stdout,
-}
-
-const signale = new Signale(sigOptions)
-signale.config({
-  displayTimestamp: true,
-  displayFilename: true,
-})
 
 // Apply for listing in the registry
 async function handleUpdateStatus(argv) {
@@ -32,13 +19,7 @@ async function handleUpdateStatus(argv) {
   const listingHash = getListingHash(listingID)
   let args = [listingHash]
 
-  signale.start(`
-
-  [%d/3] - Sending transaction
-  `, 1)
-
   const methodSignature = registry.interface.functions.updateStatus.signature
-
   // Print tx details
   printTxStart(methodSignature, args, registryName, registry, network)
 
@@ -52,7 +33,7 @@ async function handleUpdateStatus(argv) {
   const tx = await registry.functions.updateStatus(...args)
 
   // Wait for tx mining
-  signale.await('[%d/3] - Waiting for mining', 2)
+  printTxMining(tx)
   await tx.wait()
 
   console.log()
@@ -60,17 +41,12 @@ async function handleUpdateStatus(argv) {
   const receipt = await signerProvider.provider.getTransactionReceipt(tx.hash)
   if (receipt.status !== 1) {
     // Error during send tx
-    console.log('')
-    signale.error('[%d/3] - Error while processing transaction', 3)
-    console.log('')
+    printError(receipt)
     return
   }
 
   // Successfully mined tx
   printTxSuccess(receipt)
-  console.log()
-  signale.success('[%d/3] - Successful transaction!', 3)
-  console.log()
 }
 
 module.exports = {

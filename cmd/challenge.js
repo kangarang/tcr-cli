@@ -1,24 +1,11 @@
-const { Signale } = require('signale')
-
 const { handleBalances } = require('./accounts')
 const { getListingHash } = require('../lib/values')
-const { printTxStart, printTxSuccess } = require('../lib/print')
+const { printTxStart, printTxMining, printError, printTxSuccess } = require('../lib/print')
 const { getAllContracts } = require('../lib/contracts')
-
-const sigOptions = {
-  interactive: true,
-  stream: process.stdout,
-}
-
-const signale = new Signale(sigOptions)
-signale.config({
-  displayTimestamp: true,
-  displayFilename: true,
-})
 
 // Apply for listing in the registry
 async function handleChallenge(argv) {
-  const { listingID, verbose, data } = argv
+  const { listingID, verbose } = argv
   // Print account / network info
   if (verbose) {
     await handleBalances(argv)
@@ -30,12 +17,7 @@ async function handleChallenge(argv) {
 
   // Package tx args
   const listingHash = getListingHash(listingID)
-  let args = [listingHash, data]
-
-  signale.start(`
-
-  [%d/3] - Sending transaction
-  `, 1)
+  let args = [listingHash, '']
 
   const methodSignature = registry.interface.functions.challenge.signature
 
@@ -52,7 +34,7 @@ async function handleChallenge(argv) {
   const tx = await registry.functions.challenge(...args)
 
   // Wait for tx mining
-  signale.await('[%d/3] - Waiting for mining', 2)
+  printTxMining(tx)
   await tx.wait()
 
   console.log()
@@ -60,17 +42,12 @@ async function handleChallenge(argv) {
   const receipt = await signerProvider.provider.getTransactionReceipt(tx.hash)
   if (receipt.status !== 1) {
     // Error during send tx
-    console.log('')
-    signale.error('[%d/3] - Error while processing transaction', 3)
-    console.log('')
+    printError(receipt)
     return
   }
 
   // Successfully mined tx
   printTxSuccess(receipt)
-  console.log()
-  signale.success('[%d/3] - Successful transaction!', 3)
-  console.log()
 }
 
 module.exports = {
