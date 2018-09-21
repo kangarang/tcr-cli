@@ -2,7 +2,10 @@ const { handleSync } = require('./sync')
 const { handleList } = require('./list')
 const { handleBalances, handleAccounts } = require('./accounts')
 const { handleRead } = require('./read')
+const { handleApprove } = require('./approve')
 const { handleApply } = require('./apply')
+const { handleCommitVote } = require('./commitVote')
+const { handleRevealVote } = require('./revealVote')
 const { handleUpdateStatus } = require('./updateStatus')
 const { handleChallenge } = require('./challenge')
 const { handleTx } = require('./transaction')
@@ -12,7 +15,10 @@ module.exports = {
   handleList,
   handleAccounts,
   handleRead,
+  handleApprove,
   handleApply,
+  handleCommitVote,
+  handleRevealVote,
   handleUpdateStatus,
   handleChallenge,
   handleBalances,
