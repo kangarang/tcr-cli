@@ -1,4 +1,8 @@
 const boxen = require('boxen')
+const Configstore = require('configstore')
+
+const pkg = require('./package.json');
+const conf = new Configstore(pkg.name, {});
 
 // =========================
 // Argv and command mappings
@@ -13,9 +17,20 @@ module.exports = function(yargs, version, handlers) {
   return yargs.strict()
     .command('*', 'Welcome', {}, () => console.log(boxen(WELCOME, { padding: 3, margin: 3, align: 'center', borderStyle: 'double', borderColor: 'cyan' })))
     .command('accounts', 'All things account-related', {}, handlers.handleAccounts)
+    .command('set', 'Set config', {}, ({ tcr, network }) => {
+      if (tcr) {
+        conf.set('tcr', tcr)
+      }
+      if (network) {
+        conf.set('network', network)
+      }
+    })
     .command('list', 'Print listings', {}, handlers.handleList)
     .command('sync', 'Sync listings with new logs', {}, handlers.handleSync)
+    .command('approve [spender] [numTokens]', 'Approve tokens for a contract', {}, handlers.handleApprove)
     .command('apply [listingID] [data]', 'Apply for listing in the registry', {}, handlers.handleApply)
+    .command('commit [listingID] [voteOption] [numTokens]', 'Commit a vote to a poll', {}, handlers.handleCommitVote)
+    .command('reveal [listingID]', 'Commit a vote to a poll', {}, handlers.handleRevealVote)
     .command('challenge [listingID] [data]', 'Challenge a listing', {}, handlers.handleChallenge)
     .command('updateStatus [listingID]', 'Update status for a listing', {}, handlers.handleUpdateStatus)
     .command('tx [txHash]', 'Print transaction details', {}, handlers.handleTx)
@@ -31,14 +46,14 @@ module.exports = function(yargs, version, handlers) {
       group: 'Chain:',
       type: ['string', 'number'],
       alias: 'network',
-      default: 'mainnet',
+      default: conf.get('network'),
       describe: 'Specify a network',
     })
     .option('t', {
       group: 'Chain:',
       type: 'string',
       alias: 'tcr',
-      default: 'adChain',
+      default: conf.get('tcr'),
       describe: 'Specify a token-curated registry',
     })
     .option('i', {
