@@ -53,6 +53,7 @@ module.exports = function(yargs, version, handlers) {
     //   default: false,
     //   describe: 'View TCR info',
     // })
+    // TODO: group
     .option('n', {
       group: 'Chain:',
       type: ['string', 'number'],
@@ -74,6 +75,7 @@ module.exports = function(yargs, version, handlers) {
       default: conf.get('pathIndex') || '0',
       describe: 'Specify a mnemonic path index for $MNEMONIC',
     })
+    // TODO: group
     .option('u', {
       group: 'Sync:',
       alias: 'update',
@@ -95,6 +97,7 @@ module.exports = function(yargs, version, handlers) {
       default: false,
       describe: 'Save logs to local store',
     })
+    // TODO: group
     .option('a', {
       group: 'Listings:',
       alias: 'applied',
