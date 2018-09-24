@@ -1,5 +1,64 @@
 {
   "adChain": {
+    "0xb322c2222ba8723bc4daa20fb0090ec40ccb9daabc0589599b425bb472b7f17c": {
+      "listingHash": "0xb322c2222ba8723bc4daa20fb0090ec40ccb9daabc0589599b425bb472b7f17c",
+      "listingID": "goodhousekeeping.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538170829",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x566e291f1d2190b24b9bcfe4da5dfa93f360c07047ca1aeca291cf6ddb06fe3c",
+        "logIndex": 12,
+        "blockNumber": 6374835,
+        "blockTimestamp": 1537566029
+      }
+    },
+    "0x91f7d0c08bb54c1859447b12b456837bffd1d2e24ef192cee7025feb02606ac5": {
+      "listingHash": "0x91f7d0c08bb54c1859447b12b456837bffd1d2e24ef192cee7025feb02606ac5",
+      "listingID": "elle.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538170109",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x875ec456251fdcc509e1d7bf8b003da587125bb74c577d5d6b29ca6d64e89b5e",
+        "logIndex": 18,
+        "blockNumber": 6374787,
+        "blockTimestamp": 1537565309
+      }
+    },
+    "0xfe43f945788465f621b003fcad80d862123c60161cf61d369ab019b37894d773": {
+      "listingHash": "0xfe43f945788465f621b003fcad80d862123c60161cf61d369ab019b37894d773",
+      "listingID": "redbookmag.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538172695",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x93e9708a9d160b7287279aa8364313b1c7e71f9a589c5ba73a13f29284444689",
+        "logIndex": 10,
+        "blockNumber": 6374977,
+        "blockTimestamp": 1537567895
+      }
+    },
+    "0x8596cc7cb6b715eb477162397386f29a0ef356d6a040fe4902208cf94a5cc6d0": {
+      "latestBlockTxn": {
+        "txHash": "0xbf1edd4f02d19e12a92d05d7fb2741e15ef4ca8b8df0a735dc77e59a4a84f633",
+        "logIndex": 101,
+        "blockNumber": 5572983,
+        "blockTimestamp": 1525710442
+      },
+      "appEndDate": "1525157788",
+      "removedBlockTimestamp": "1525710442",
+      "data": "bloomberg.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x8596cc7cb6b715eb477162397386f29a0ef356d6a040fe4902208cf94a5cc6d0",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "bloomberg.com"
+    },
     "0xc8a8b82eae12eb469f23e689db538d21720e453482bdd92be8fabfea7610c948": {
       "latestBlockTxn": {
         "txHash": "0x506a2f1352449fa96f550eb2f50d0e3bc309850f5bc40cae25d1d8e26ef790c1",
@@ -16,30 +75,46 @@
       "listingID": "nhl.com"
     },
     "0xbe5ed34dc7c3a635524906aa3a86a7595bc043b2e7a590d053bc586c1b7f1361": {
-      "votesFor": "177025000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0xa6ffe5cf0ef0a23bfd5b7d96295b6def5ba6be8a5f5dbbe5412866e122da36fc",
         "logIndex": 56,
         "blockNumber": 6029063,
         "blockTimestamp": 1532545247
       },
-      "tokensToClaim": true,
+      "tokensToClaim": false,
       "appEndDate": "1531772821",
-      "userVoteNumTokens": "27025000000000",
+      "userVoteNumTokens": "0",
       "challenger": "0xE5262929eA7a9E8F685B8954Bf0E263539c79034",
       "whitelistBlockTimestamp": "1532353493",
       "listingHash": "0xbe5ed34dc7c3a635524906aa3a86a7595bc043b2e7a590d053bc586c1b7f1361",
       "commitEndDate": "1531761084",
       "status": "whitelisted",
-      "votesCommitted": "187035000000000",
+      "votesCommitted": "0",
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_RewardClaimed",
-      "userVoteChoice": "1",
+      "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "21",
-      "votesTotal": "177025000000000",
+      "votesTotal": "0",
       "revealEndDate": "1532193084",
       "listingID": "npr.org"
+    },
+    "0x769fe1663691c887c011960972b72a0f07aeb8b8f6c424bdbeee59695578f5a5": {
+      "latestBlockTxn": {
+        "txHash": "0x70b4d012b10acd26e6b7fc2c5743decd2d03e8ff41f740e487812ceebc8a676e",
+        "logIndex": 21,
+        "blockNumber": 5572881,
+        "blockTimestamp": 1525709328
+      },
+      "appEndDate": "1525459775",
+      "data": "bustle.com",
+      "whitelistBlockTimestamp": "1525709328",
+      "listingHash": "0x769fe1663691c887c011960972b72a0f07aeb8b8f6c424bdbeee59695578f5a5",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "bustle.com"
     },
     "0x65580aa561582127a5b13b95bc489620373b23988fba79a8d9bc382ec94a7550": {
       "latestBlockTxn": {
@@ -57,6 +132,34 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "coindesk.com"
     },
+    "0x24a2903412bdc02d7e64eeb4ffaddcfacabeb8d5e5bbc957fc904cc27a5ec603": {
+      "listingHash": "0x24a2903412bdc02d7e64eeb4ffaddcfacabeb8d5e5bbc957fc904cc27a5ec603",
+      "listingID": "roadandtrack.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538172094",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x7000aa2929a7eef96fe0c0fbc42ac2c4736dac2580a4752948e6b7e0803b24a3",
+        "logIndex": 27,
+        "blockNumber": 6374934,
+        "blockTimestamp": 1537567294
+      }
+    },
+    "0x27342a4871e036b28979a760ba2719807b63400d0e148ed3ea5c51673e3f8244": {
+      "listingHash": "0x27342a4871e036b28979a760ba2719807b63400d0e148ed3ea5c51673e3f8244",
+      "listingID": "realsimple.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538167310",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x75ff6b2ab4961814d1dffa276d3242dad3f5ef3e86351a81cd479d3041d23ee3",
+        "logIndex": 6,
+        "blockNumber": 6374572,
+        "blockTimestamp": 1537562510
+      }
+    },
     "0xab11be37e6bfa17b7339cecf93540ab9f9ffed032c904c1c334a52e8c6bba493": {
       "latestBlockTxn": {
         "txHash": "0xced21586489a193f79e65a92c817f7d9bb37658605133d65666e96c7238444b1",
@@ -71,6 +174,48 @@
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "reuters.com"
+    },
+    "0x7cbd2c5d0037f922f09d2ee4c7859dc4552a5ab386157637599101e449bb147d": {
+      "listingHash": "0x7cbd2c5d0037f922f09d2ee4c7859dc4552a5ab386157637599101e449bb147d",
+      "listingID": "elledecor.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538172568",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xbfb301e094fd288a5ab61d7717e7563af622d24b331d3b4c23b63e611bc03448",
+        "logIndex": 15,
+        "blockNumber": 6374968,
+        "blockTimestamp": 1537567768
+      }
+    },
+    "0xd8647cbb2a2306dd62721286cea0666ee68408b084812155c17889667d6d4a47": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x29cb3e9dd9aabbbe4cf1ead0a2028816e199f6dfde2e4f05ff5afc0a4595018d",
+        "logIndex": 14,
+        "blockNumber": 5572950,
+        "blockTimestamp": 1525710079
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525344617",
+      "removedBlockTimestamp": "1525639123",
+      "data": "nytimes.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0xE5262929eA7a9E8F685B8954Bf0E263539c79034",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xd8647cbb2a2306dd62721286cea0666ee68408b084812155c17889667d6d4a47",
+      "commitEndDate": "1525207014",
+      "status": "removed",
+      "votesCommitted": "0",
+      "owner": "0x2A3F7E5170Ea8Ca967f85f091eF84591f639E031",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "4",
+      "votesTotal": "0",
+      "revealEndDate": "1525639014",
+      "listingID": "nytimes.com"
     },
     "0x6a954f8d292091607b6f6b155e62bf2f272af58487433251272df55e802802be": {
       "votesFor": "0",
@@ -89,13 +234,13 @@
       "listingHash": "0x6a954f8d292091607b6f6b155e62bf2f272af58487433251272df55e802802be",
       "commitEndDate": "1534130998",
       "status": "removed",
-      "votesCommitted": "2900502000000000",
+      "votesCommitted": "0",
       "owner": "0x7bDC4d7C5056eafBF2eC3cC9a51806c0dbedF2bB",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "101001000000000",
+      "votesAgainst": "0",
       "pollID": "23",
-      "votesTotal": "101001000000000",
+      "votesTotal": "0",
       "revealEndDate": "1534562998",
       "listingID": "iamfraud.com"
     },
@@ -128,6 +273,78 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "wikia.com"
     },
+    "0xcc70ba0fbcf1029a03c6d5582dd03065b20e0bdc44f211fb1e46bfeeb558e381": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x271842434b55435ee519abb0eb3f3632aad4a0da2bc9f9371ff1bc768b19b946",
+        "logIndex": 53,
+        "blockNumber": 5637181,
+        "blockTimestamp": 1526681656
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525189568",
+      "removedBlockTimestamp": "1525820382",
+      "data": "reuters.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7646D42424B4489FDCDD6DF5E0b355Ae7a300B64",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xcc70ba0fbcf1029a03c6d5582dd03065b20e0bdc44f211fb1e46bfeeb558e381",
+      "commitEndDate": "1525372806",
+      "status": "removed",
+      "votesCommitted": "0",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "5",
+      "votesTotal": "0",
+      "revealEndDate": "1525804806",
+      "listingID": "reuters.com"
+    },
+    "0x99138c2e0357713c4ee534e567a1457ee33751a549e3e2c35cd7dd2a509d90eb": {
+      "listingHash": "0x99138c2e0357713c4ee534e567a1457ee33751a549e3e2c35cd7dd2a509d90eb",
+      "listingID": "myrecipes.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538168424",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xf6fcd7f223c5434e4f7f1179f03ceb03994b197f3a7f861f53bdb2b817d9303c",
+        "logIndex": 3,
+        "blockNumber": 6374654,
+        "blockTimestamp": 1537563624
+      }
+    },
+    "0x58b2313ceb8f23b25a7f45512bbc56c02db411b7410938a912ac5e08357797f9": {
+      "latestBlockTxn": {
+        "txHash": "0x19700a9fee2309707514398ebd15e71e2f07fde22b5e9fd789f7f40300459a01",
+        "logIndex": 50,
+        "blockNumber": 5572910,
+        "blockTimestamp": 1525709601
+      },
+      "appEndDate": "1525324001",
+      "data": "cellarius.network",
+      "whitelistBlockTimestamp": "1525709601",
+      "listingHash": "0x58b2313ceb8f23b25a7f45512bbc56c02db411b7410938a912ac5e08357797f9",
+      "status": "whitelisted",
+      "owner": "0x5Db0BDD27A88d76d289ac68fACAc92005EA6368e",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "cellarius.network"
+    },
+    "0xab44931c91e38ea985beb3c877f712fe1faf196c7cdad22aa44e3a85a70cd7c2": {
+      "listingHash": "0xab44931c91e38ea985beb3c877f712fe1faf196c7cdad22aa44e3a85a70cd7c2",
+      "listingID": "womansday.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538173018",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x26de6c69e506d6ce4c2dbf315a32694806578bc545eb271474dcb575b693909d",
+        "logIndex": 31,
+        "blockNumber": 6375000,
+        "blockTimestamp": 1537568218
+      }
+    },
     "0x98a325d9159481daea021506af19b82910ce85f80d66e4ea232bbded331161a4": {
       "listingHash": "0x98a325d9159481daea021506af19b82910ce85f80d66e4ea232bbded331161a4",
       "listingID": "shape.com",
@@ -158,7 +375,7 @@
       "listingID": "mylifetime.com"
     },
     "0xc103fe84164df976cd7404f3fa54a93eb0c88c55486af03283fb83143cd8a605": {
-      "votesFor": "2888164000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x7f75939df6aca4a1f9c9cb4a758f52806e3f904e5f09e2ac08cbe7b4cb6b3ef1",
         "logIndex": 90,
@@ -173,15 +390,29 @@
       "listingHash": "0xc103fe84164df976cd7404f3fa54a93eb0c88c55486af03283fb83143cd8a605",
       "commitEndDate": "1525912045",
       "status": "whitelisted",
-      "votesCommitted": "3705748000000000",
+      "votesCommitted": "0",
       "owner": "0xC81613c7aA2E57AC55f643A605f3c1655898D4B3",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "6",
-      "votesTotal": "2888164000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526344045",
       "listingID": "nbc.com"
+    },
+    "0x95cdd8d06f257d9c85017adba5093207a140b94aabd37f6273164cab8d0c1dbd": {
+      "listingHash": "0x95cdd8d06f257d9c85017adba5093207a140b94aabd37f6273164cab8d0c1dbd",
+      "listingID": "marthastewartweddings.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538167441",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xc5e455cc27f00accc59034b06f493fbaadd531ab955f76bedf257381abb72280",
+        "logIndex": 7,
+        "blockNumber": 6374581,
+        "blockTimestamp": 1537562641
+      }
     },
     "0x5912445cc0b21eeda367c6719e18fcf6d91f6c0848fd228888b948425a68c459": {
       "latestBlockTxn": {
@@ -258,7 +489,7 @@
       "listingID": "cointelegraph.com"
     },
     "0x7b8548b1ccd5c1459a6415be3efe8a320238683f1419fb94165f2f28a65e98f5": {
-      "votesFor": "100000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0xe16116fbcb3ddc62f2a34c6b81a00abce839c1ff4e236a787861515c81859e43",
         "logIndex": 91,
@@ -273,18 +504,18 @@
       "listingHash": "0x7b8548b1ccd5c1459a6415be3efe8a320238683f1419fb94165f2f28a65e98f5",
       "commitEndDate": "1530536707",
       "status": "whitelisted",
-      "votesCommitted": "154200000000000",
+      "votesCommitted": "0",
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "19",
-      "votesTotal": "100000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1530968707",
       "listingID": "imdb.com"
     },
     "0x48837f9fa802a956e2c8f4f68c888ced1499205e1363e79c8e9ea3583e6b228a": {
-      "votesFor": "2700000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x5d753d33d51d7dada0bbefbc59cfea0337280969fb4895494989691eef353e01",
         "logIndex": 90,
@@ -299,13 +530,13 @@
       "listingHash": "0x48837f9fa802a956e2c8f4f68c888ced1499205e1363e79c8e9ea3583e6b228a",
       "commitEndDate": "1526084048",
       "status": "whitelisted",
-      "votesCommitted": "3609200000000000",
+      "votesCommitted": "0",
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_ChallengeFailed",
       "userVoteChoice": "",
-      "votesAgainst": "100100000000000",
+      "votesAgainst": "0",
       "pollID": "9",
-      "votesTotal": "2800100000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526516048",
       "listingID": "adage.com"
     },
@@ -323,6 +554,55 @@
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "qq.com"
+    },
+    "0x9d69f8ca850afbec3165e02f78054127cde5a63b56ae57e44ed71462701b4203": {
+      "latestBlockTxn": {
+        "txHash": "0x2778535dae7a12969d57a4b45279da3398a3336797beb41e942784ae8942ee49",
+        "logIndex": 60,
+        "blockNumber": 5572874,
+        "blockTimestamp": 1525709240
+      },
+      "appEndDate": "1525459817",
+      "data": "cbs.com",
+      "whitelistBlockTimestamp": "1525709240",
+      "listingHash": "0x9d69f8ca850afbec3165e02f78054127cde5a63b56ae57e44ed71462701b4203",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "cbs.com"
+    },
+    "0x278f753633f710297d4b391a5230a57ba6fa7c9825c8433baac79f516671055f": {
+      "latestBlockTxn": {
+        "txHash": "0x1976b03494566c9628bab0884ce93944c2e89c5a94d892ede1bc10024353a2f1",
+        "logIndex": 41,
+        "blockNumber": 5538641,
+        "blockTimestamp": 1525190999
+      },
+      "appEndDate": "1525155868",
+      "data": "twitter.com",
+      "whitelistBlockTimestamp": "1525190999",
+      "listingHash": "0x278f753633f710297d4b391a5230a57ba6fa7c9825c8433baac79f516671055f",
+      "status": "whitelisted",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "twitter.com"
+    },
+    "0x0f209346783d93af3159cfa2f9f749bb266ba5cec8a1a4f0ed7d753b0b5634c2": {
+      "latestBlockTxn": {
+        "txHash": "0xd82114cd7a14fe9e793e9d8efce1b9c431287d53aa0b8097a66e55a86f3e025a",
+        "logIndex": 105,
+        "blockNumber": 5556517,
+        "blockTimestamp": 1525463677
+      },
+      "appEndDate": "1525195676",
+      "removedBlockTimestamp": "1525463677",
+      "data": "amazon.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x0f209346783d93af3159cfa2f9f749bb266ba5cec8a1a4f0ed7d753b0b5634c2",
+      "status": "removed",
+      "owner": "0xCf135B7D2578347283c036D52791bF12E5aa2159",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "amazon.com"
     },
     "0x26eb4b60c6abe61d462df84860af4fd713205a8b8a308d5c5a852e514f3189c9": {
       "latestBlockTxn": {
@@ -354,7 +634,7 @@
       }
     },
     "0xc432dcf36cfbe213a836700ba24f67e740327a077966beb25ee759a2fd8ae804": {
-      "votesFor": "2700000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x7a97fc0f6a8271e3c689d0d9b2747a081d5c8bffe30399eba3c94a08c6565f85",
         "logIndex": 92,
@@ -369,15 +649,29 @@
       "listingHash": "0xc432dcf36cfbe213a836700ba24f67e740327a077966beb25ee759a2fd8ae804",
       "commitEndDate": "1526405643",
       "status": "whitelisted",
-      "votesCommitted": "2800300000000000",
+      "votesCommitted": "0",
       "owner": "0x4ccA5F2f01746B1c13ca7a3Dab0462d225795D3A",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "100000000000000",
+      "votesAgainst": "0",
       "pollID": "13",
-      "votesTotal": "2800000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526837643",
       "listingID": "cointop.sh"
+    },
+    "0x15c012ff9d6663b438b68e2dd38933b5864541757c4a2c89be8e7eb01ef5fde1": {
+      "listingHash": "0x15c012ff9d6663b438b68e2dd38933b5864541757c4a2c89be8e7eb01ef5fde1",
+      "listingID": "popularmechanics.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538170258",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x78a8463b5524b7f555f00b5036e6fc3a3019e22753e0336c769e11b2c681050e",
+        "logIndex": 7,
+        "blockNumber": 6374800,
+        "blockTimestamp": 1537565458
+      }
     },
     "0xc79273d4e255a19c3b6526441f12422a8394a704087789cf35754977f5439eb7": {
       "latestBlockTxn": {
@@ -409,6 +703,22 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "newsbtc.com"
     },
+    "0x15563939e404048358be514d8e19fae943b097ac2d217f09617d7fc11bd2310e": {
+      "latestBlockTxn": {
+        "txHash": "0x269f87573fe6e02bc9d4b451e428836b168ffe7495ffb9efe353efbf5799a4c2",
+        "logIndex": 94,
+        "blockNumber": 5550153,
+        "blockTimestamp": 1525366422
+      },
+      "appEndDate": "1525199972",
+      "data": "theinertia.com",
+      "whitelistBlockTimestamp": "1525366422",
+      "listingHash": "0x15563939e404048358be514d8e19fae943b097ac2d217f09617d7fc11bd2310e",
+      "status": "whitelisted",
+      "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "theinertia.com"
+    },
     "0x8ab5a0b8fb57be593f838099b245290920ff27391ce59e8e6fc379e3ac016129": {
       "votesFor": "0",
       "latestBlockTxn": {
@@ -426,18 +736,18 @@
       "listingHash": "0x8ab5a0b8fb57be593f838099b245290920ff27391ce59e8e6fc379e3ac016129",
       "commitEndDate": "1526574270",
       "status": "removed",
-      "votesCommitted": "101100000000000",
+      "votesCommitted": "0",
       "owner": "0x7bDC4d7C5056eafBF2eC3cC9a51806c0dbedF2bB",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "100100000000000",
+      "votesAgainst": "0",
       "pollID": "16",
-      "votesTotal": "100100000000000",
+      "votesTotal": "0",
       "revealEndDate": "1527006270",
       "listingID": "therichest.com"
     },
     "0xc863562305fd758a5ce05dccea15baa0caf50704cb0ac7d28ea2a18cf1d23f47": {
-      "votesFor": "2701300000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x8f8004f82e48f0eebb22e99007845eb35b3382be5d3bb1d9940177678b914e27",
         "logIndex": 23,
@@ -452,39 +762,71 @@
       "listingHash": "0xc863562305fd758a5ce05dccea15baa0caf50704cb0ac7d28ea2a18cf1d23f47",
       "commitEndDate": "1526510658",
       "status": "whitelisted",
-      "votesCommitted": "2801301000000000",
+      "votesCommitted": "0",
       "owner": "0x19EB4DA53752CA4e03006a9f12bb0AFEcF93b9CC",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "100000000000000",
+      "votesAgainst": "0",
       "pollID": "15",
-      "votesTotal": "2801300000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526942658",
       "listingID": "basicattentiontoken.org"
     },
+    "0xc76c88cc618dad853a1f9f6ca207089c3f4580a20bd9f505f3faef6707d35499": {
+      "latestBlockTxn": {
+        "txHash": "0x10260407854d562b1caa14b12c86414f4816635d7b05828431d67d0af4777010",
+        "logIndex": 102,
+        "blockNumber": 5572875,
+        "blockTimestamp": 1525709257
+      },
+      "appEndDate": "1525459817",
+      "data": "billboard.com",
+      "whitelistBlockTimestamp": "1525709257",
+      "listingHash": "0xc76c88cc618dad853a1f9f6ca207089c3f4580a20bd9f505f3faef6707d35499",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "billboard.com"
+    },
+    "0xfdd1accf37c424b96edc97dbc90ae86c56b1c84a193e95d4d3bd7f028caae7ff": {
+      "latestBlockTxn": {
+        "txHash": "0xa8050471eb953d64aa4f27da59f749d98a5151ee786aa36e3dc5e0e1ddacabc3",
+        "logIndex": 64,
+        "blockNumber": 5572912,
+        "blockTimestamp": 1525709625
+      },
+      "appEndDate": "1525264107",
+      "data": "ethereum-france.com",
+      "whitelistBlockTimestamp": "1525709625",
+      "listingHash": "0xfdd1accf37c424b96edc97dbc90ae86c56b1c84a193e95d4d3bd7f028caae7ff",
+      "status": "whitelisted",
+      "owner": "0x87BdB4879138276E241116d54c7f67C3bb375593",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "ethereum-france.com"
+    },
     "0xe61f7638738283642aeb50e59a7643645036ff442032e2df7f1988ad81ae5f44": {
-      "votesFor": "21525410000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0xeb65990a7be54a5671820a986241eeefce3ac2f30dc86fb4c28d07d1c108de9e",
         "logIndex": 142,
         "blockNumber": 6331686,
         "blockTimestamp": 1536950666
       },
-      "tokensToClaim": true,
+      "tokensToClaim": false,
       "appEndDate": "1533024576",
-      "userVoteNumTokens": "27025000000000",
+      "userVoteNumTokens": "0",
       "challenger": "0x59b636fEaD429a70114822d78A4fCF96eBd16b02",
       "whitelistBlockTimestamp": "1533847892",
       "listingHash": "0xe61f7638738283642aeb50e59a7643645036ff442032e2df7f1988ad81ae5f44",
       "commitEndDate": "1533415700",
       "status": "whitelisted",
-      "votesCommitted": "21720409000000000",
+      "votesCommitted": "0",
       "owner": "0x512E07A093aAA20Ba288392EaDF03838C7a4e522",
       "latestEvent": "_RewardClaimed",
-      "userVoteChoice": "1",
-      "votesAgainst": "790000000000",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
       "pollID": "22",
-      "votesTotal": "21526200000000000",
+      "votesTotal": "0",
       "revealEndDate": "1533847700",
       "listingID": "spankchain.com"
     },
@@ -534,8 +876,49 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "islamweb.net"
     },
+    "0x340c1735061abe280666e13736b3f7c338183ea47cda0f8967a38221508ddb76": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0xb1d5d47d0c02a8fe42203e98c6552a88c411f28274680802b3d1997f07ebd7b4",
+        "logIndex": 153,
+        "blockNumber": 6029482,
+        "blockTimestamp": 1532550992
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525470732",
+      "data": "spotify.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7646D42424B4489FDCDD6DF5E0b355Ae7a300B64",
+      "whitelistBlockTimestamp": "1527907118",
+      "listingHash": "0x340c1735061abe280666e13736b3f7c338183ea47cda0f8967a38221508ddb76",
+      "commitEndDate": "1526084753",
+      "status": "whitelisted",
+      "votesCommitted": "0",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "10",
+      "votesTotal": "0",
+      "revealEndDate": "1526516753",
+      "listingID": "spotify.com"
+    },
+    "0x7a75f79e8de23570810fc2b8f1f4d2ce0d1f3fe5a9c92883f1ff607b9203803e": {
+      "listingHash": "0x7a75f79e8de23570810fc2b8f1f4d2ce0d1f3fe5a9c92883f1ff607b9203803e",
+      "listingID": "bestproducts.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538173149",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xc1e257bb9c5de079cf12bae9cae793a4faaa35cd0f3cd330a2a2de9568d25b0e",
+        "logIndex": 21,
+        "blockNumber": 6375009,
+        "blockTimestamp": 1537568349
+      }
+    },
     "0x2b25a26e8f9f85d5c41a9ca403de212bc337b884016649d7b70ecf7509367a60": {
-      "votesFor": "2800000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x85dc0a3e796dbe7a965cf49c1fd8cc0e01468d65067334772fe64113a8622e00",
         "logIndex": 3,
@@ -550,15 +933,32 @@
       "listingHash": "0x2b25a26e8f9f85d5c41a9ca403de212bc337b884016649d7b70ecf7509367a60",
       "commitEndDate": "1526410450",
       "status": "whitelisted",
-      "votesCommitted": "2800000000000000",
+      "votesCommitted": "0",
       "owner": "0x1a5cdcFBA600e0c669795e0B65c344D5A37a4d5A",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "14",
-      "votesTotal": "2800000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526842450",
       "listingID": "hidden.computer"
+    },
+    "0xbdc74429fcbdca1e3d1400a5be866e2366eafb0e8e04b3bf25e60554139ec83e": {
+      "latestBlockTxn": {
+        "txHash": "0xb06f382e69ee9a038a155c501d823543565a03b46f69d13b6e652d81d5b6dd95",
+        "logIndex": 61,
+        "blockNumber": 5572984,
+        "blockTimestamp": 1525710447
+      },
+      "appEndDate": "1525156991",
+      "removedBlockTimestamp": "1525710447",
+      "data": "fool.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xbdc74429fcbdca1e3d1400a5be866e2366eafb0e8e04b3bf25e60554139ec83e",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "fool.com"
     },
     "0xdd23cdb7b6064159d4df7824e5a69320e780319a03d7d105efe22b28d52f5fb3": {
       "latestBlockTxn": {
@@ -576,7 +976,7 @@
       "listingID": "bbc.co.uk"
     },
     "0xdc92da310d6cdcf4c8e8da60acc5de6a6325d9a5157970b0dc63f5cae5900bb1": {
-      "votesFor": "141508000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x70a473a8ecffbe7b3edf19a6276daa04b78add6ddd4e26d733d4e884c9bbdac8",
         "logIndex": 87,
@@ -591,15 +991,65 @@
       "listingHash": "0xdc92da310d6cdcf4c8e8da60acc5de6a6325d9a5157970b0dc63f5cae5900bb1",
       "commitEndDate": "1535521841",
       "status": "whitelisted",
-      "votesCommitted": "141517000000000",
+      "votesCommitted": "0",
       "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
       "latestEvent": "_ChallengeFailed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "26",
-      "votesTotal": "141508000000000",
+      "votesTotal": "0",
       "revealEndDate": "1535953841",
       "listingID": "coinmarketcap.com"
+    },
+    "0xce8fd9c3767276dc648b023b4babbb99994d77158737012e82e3a6c94b407d64": {
+      "latestBlockTxn": {
+        "txHash": "0x58e2938410d07f742e6964b8086a9880ae581f045f20d153f7b9636781aff995",
+        "logIndex": 53,
+        "blockNumber": 5572986,
+        "blockTimestamp": 1525710496
+      },
+      "appEndDate": "1525158236",
+      "removedBlockTimestamp": "1525710496",
+      "data": "gq.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xce8fd9c3767276dc648b023b4babbb99994d77158737012e82e3a6c94b407d64",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "gq.com"
+    },
+    "0x3e0b6d8e857d0b324bb08a423f2a85e78b75805c8ab6c332cde2e196f0ef7368": {
+      "latestBlockTxn": {
+        "txHash": "0xc230d76972fcba8368b5b66b27cc9269212379c7781a7812582e260022b713bb",
+        "logIndex": 157,
+        "blockNumber": 5567306,
+        "blockTimestamp": 1525625760
+      },
+      "appEndDate": "1525466068",
+      "data": "cre8bid.io",
+      "whitelistBlockTimestamp": "1525625760",
+      "listingHash": "0x3e0b6d8e857d0b324bb08a423f2a85e78b75805c8ab6c332cde2e196f0ef7368",
+      "status": "whitelisted",
+      "owner": "0xCb5Fba4419ABC4D7C11af0C24BA0F2e555407F5b",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "cre8bid.io"
+    },
+    "0x57970e4bcafa4b2ad7be3971f417ca5732b3195c08fb389c756e28c1d2e2fc1d": {
+      "latestBlockTxn": {
+        "txHash": "0x542e7511fad68f80e9f3d6db30e27bd7105f96af0d10b9700c94a5773b60d3a6",
+        "logIndex": 155,
+        "blockNumber": 5572988,
+        "blockTimestamp": 1525710515
+      },
+      "appEndDate": "1525156118",
+      "removedBlockTimestamp": "1525710515",
+      "data": "reddit.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x57970e4bcafa4b2ad7be3971f417ca5732b3195c08fb389c756e28c1d2e2fc1d",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "reddit.com"
     },
     "0x9b8316fbb072107ee3fa78493f8e76b54e3b7bc71f7ec0acb1eeef525753f8ea": {
       "latestBlockTxn": {
@@ -648,13 +1098,13 @@
       "listingHash": "0x3de9f2b21b0a48e3d68ccb4b4d30fe5586334e2ceb12c5eeee75ffd9af8607c4",
       "commitEndDate": "1535994530",
       "status": "removed",
-      "votesCommitted": "140002000000000",
+      "votesCommitted": "0",
       "owner": "0xcb816E0491Ce3b66f33304473468698Aae97Cc0a",
       "latestEvent": "_ChallengeSucceeded",
       "userVoteChoice": "",
-      "votesAgainst": "40000000000000",
+      "votesAgainst": "0",
       "pollID": "27",
-      "votesTotal": "40000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1536426530",
       "listingID": "iotex.io"
     },
@@ -685,6 +1135,67 @@
         "blockNumber": 6374350,
         "blockTimestamp": 1537559634
       }
+    },
+    "0x1188f36d04ee89d9a81d6c56ba2eabb87658ac6bc758e3c6d70189d21e7c3517": {
+      "listingHash": "0x1188f36d04ee89d9a81d6c56ba2eabb87658ac6bc758e3c6d70189d21e7c3517",
+      "listingID": "esquire.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538169882",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xb6813f0db0c1970655a6680e37dea289348410ef136ab28cbbc2e011c4b77a86",
+        "logIndex": 1,
+        "blockNumber": 6374773,
+        "blockTimestamp": 1537565082
+      }
+    },
+    "0xedc13d2743e02022b1857d6096e1868b2051ff52854d3ee620cd846f16a6c354": {
+      "latestBlockTxn": {
+        "txHash": "0x0c3426a444b4ed7350ac9ce6f5cbbae4abba765758810acfcf28d975a62d5f71",
+        "logIndex": 119,
+        "blockNumber": 5572992,
+        "blockTimestamp": 1525710633
+      },
+      "appEndDate": "1525158682",
+      "removedBlockTimestamp": "1525710633",
+      "data": "vogue.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xedc13d2743e02022b1857d6096e1868b2051ff52854d3ee620cd846f16a6c354",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "vogue.com"
+    },
+    "0x407afccacd272024f69b822228fe1990beb975604819c576d329cdb6e04d260c": {
+      "listingHash": "0x407afccacd272024f69b822228fe1990beb975604819c576d329cdb6e04d260c",
+      "listingID": "housebeautiful.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538172406",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xc9757604e65b6eda65fdee5c13aaa46998140b9c7fb4214cb7da9b93d30fb17a",
+        "logIndex": 9,
+        "blockNumber": 6374954,
+        "blockTimestamp": 1537567606
+      }
+    },
+    "0x694e413cdd05d2dd4b504f37403e4e102fbbbe9a0d5382346cf8704838d6291d": {
+      "latestBlockTxn": {
+        "txHash": "0x7da16d9fee0583c712a64c2e3f00601d22ad9d554599fce920d03177f57d8160",
+        "logIndex": 68,
+        "blockNumber": 5572839,
+        "blockTimestamp": 1525708571
+      },
+      "appEndDate": "1525469160",
+      "data": "ft.com",
+      "whitelistBlockTimestamp": "1525708571",
+      "listingHash": "0x694e413cdd05d2dd4b504f37403e4e102fbbbe9a0d5382346cf8704838d6291d",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "ft.com"
     },
     "0x2ac5f4c87580b493fb20032033ae46c965848b6ffbd011467193c923286bb6da": {
       "latestBlockTxn": {
@@ -748,13 +1259,13 @@
       "listingHash": "0x2b0884c6a622e4532f6f7d1453fc9b36b055fcaa43404fa1bdd3d02782232422",
       "commitEndDate": "1526232668",
       "status": "removed",
-      "votesCommitted": "100600000000000",
+      "votesCommitted": "0",
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "100400000000000",
+      "votesAgainst": "0",
       "pollID": "12",
-      "votesTotal": "100400000000000",
+      "votesTotal": "0",
       "revealEndDate": "1526664668",
       "listingID": "static.audienceinsights.net"
     },
@@ -772,6 +1283,47 @@
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "epicurious.com"
+    },
+    "0x851ccb195406d4126a5cab20e6476ad265e4778e45809d355e6c1bff5e41acfc": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x3307d3fe3bb6b3d27ae69087d27addb74db1bdafd79bd0023b5b37f8bf874447",
+        "logIndex": 3,
+        "blockNumber": 5624678,
+        "blockTimestamp": 1526491543
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525183703",
+      "data": "google.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7646D42424B4489FDCDD6DF5E0b355Ae7a300B64",
+      "whitelistBlockTimestamp": "1526424218",
+      "listingHash": "0x851ccb195406d4126a5cab20e6476ad265e4778e45809d355e6c1bff5e41acfc",
+      "commitEndDate": "1525918603",
+      "status": "whitelisted",
+      "votesCommitted": "0",
+      "owner": "0x5fa079673749104641B0e59388a87c84c2843Fe6",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "7",
+      "votesTotal": "0",
+      "revealEndDate": "1526350603",
+      "listingID": "google.com"
+    },
+    "0x00477c664b69072a43ff6778763ba2db486e71be003f7dbb3262489ce58bf083": {
+      "listingHash": "0x00477c664b69072a43ff6778763ba2db486e71be003f7dbb3262489ce58bf083",
+      "listingID": "eatingwell.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538167145",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x3d926d4d06a1fbd379454c79cb54541db3e6ae5ea3ea81f94539f831c996021c",
+        "logIndex": 25,
+        "blockNumber": 6374557,
+        "blockTimestamp": 1537562345
+      }
     },
     "0x053db260c54bc5dd322351d065eb09b0f68ba7a572f28aeb29e2f4f778ef6076": {
       "latestBlockTxn": {
@@ -801,6 +1353,33 @@
         "blockNumber": 6344361,
         "blockTimestamp": 1537130102
       }
+    },
+    "0xdbf85f131d61ee5475c070b1053a7cfcf65079f28c0c5d1cd2730848cba72afb": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x92959508790f76c58776b6cabb3dd1f80eaa007c76cc376028f9a97990a3c5b0",
+        "logIndex": 114,
+        "blockNumber": 6029458,
+        "blockTimestamp": 1532550545
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525469134",
+      "data": "pandora.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7646D42424B4489FDCDD6DF5E0b355Ae7a300B64",
+      "whitelistBlockTimestamp": "1526593560",
+      "listingHash": "0xdbf85f131d61ee5475c070b1053a7cfcf65079f28c0c5d1cd2730848cba72afb",
+      "commitEndDate": "1526085606",
+      "status": "whitelisted",
+      "votesCommitted": "0",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "11",
+      "votesTotal": "0",
+      "revealEndDate": "1526517606",
+      "listingID": "pandora.com"
     },
     "0x182ee49f31b64e106b7f5e942b12ee3b3e1a74534181d6eba5d71451b9141aeb": {
       "latestBlockTxn": {
@@ -856,6 +1435,20 @@
       "revealEndDate": "1538408771",
       "listingID": "parents.com"
     },
+    "0x08888802a84405c43f6bd6f276e6f882cc21bacc74f8cbdb001bf887181bae0f": {
+      "listingHash": "0x08888802a84405c43f6bd6f276e6f882cc21bacc74f8cbdb001bf887181bae0f",
+      "listingID": "cosmopolitan.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538168833",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xcfb68c9961530d1a88023dc2200489e70d48c8726c2593c18520901887c92770",
+        "logIndex": 12,
+        "blockNumber": 6374681,
+        "blockTimestamp": 1537564033
+      }
+    },
     "0x823fc1795ee567bde5d945de9fbdb354a1ea9fabc4beaddfc32e1192c7183001": {
       "latestBlockTxn": {
         "txHash": "0x84357aebab37e2371750d63493bf631b91ff7d6b0a36b4f4e60e99a4c5d4b506",
@@ -871,6 +1464,37 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "wired.com"
     },
+    "0xb974fe9dcf0345050d368c0318e40c6fc3c23b3deb67dcc8717cfc443a9208cf": {
+      "latestBlockTxn": {
+        "txHash": "0xd4986d8b50294015bc85434dd979fb24c02a982dcf4e2158f98100cf565230c6",
+        "logIndex": 25,
+        "blockNumber": 6344347,
+        "blockTimestamp": 1537129900
+      },
+      "appEndDate": "1525150946",
+      "removedBlockTimestamp": "1537129900",
+      "data": "espn.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xb974fe9dcf0345050d368c0318e40c6fc3c23b3deb67dcc8717cfc443a9208cf",
+      "status": "removed",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "espn.com"
+    },
+    "0x39342adfdd887914342b981c225b8f16ce5bbd4364d6453fc9f14f6072cff5cd": {
+      "listingHash": "0x39342adfdd887914342b981c225b8f16ce5bbd4364d6453fc9f14f6072cff5cd",
+      "listingID": "countryliving.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538171781",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x879c2fd00d901c2940acd1e4a47bd1912f3b84885eef82f2493681511f8a2726",
+        "logIndex": 9,
+        "blockNumber": 6374908,
+        "blockTimestamp": 1537566981
+      }
+    },
     "0xa3db3ddcd33ed6586d7c8d6c1d7837f0ce5e13e68583e0db809a94272abbecf6": {
       "latestBlockTxn": {
         "txHash": "0xc4dcbd399a67eedcc4837333784bb766d731c8e081693869cdc9e1470937e52d",
@@ -885,6 +1509,22 @@
       "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "fool.com"
+    },
+    "0x64df007ee09e7e451b0ee423296a05da891e82a764da2ab1bfc6959e89883fff": {
+      "latestBlockTxn": {
+        "txHash": "0x624c43e40b3177de8eef26dc7752277fcf309b2a811eba82ac0dc7f77855e292",
+        "logIndex": 91,
+        "blockNumber": 5572782,
+        "blockTimestamp": 1525707726
+      },
+      "appEndDate": "1525475332",
+      "data": "food52.com",
+      "whitelistBlockTimestamp": "1525707726",
+      "listingHash": "0x64df007ee09e7e451b0ee423296a05da891e82a764da2ab1bfc6959e89883fff",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "food52.com"
     },
     "0xd50cc5314d636264b8484b88aceb3bc394b0b3ffb4c9e4ab3460ac1ec3ed20fd": {
       "latestBlockTxn": {
@@ -917,8 +1557,22 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "cryptonow.tv"
     },
+    "0x9bcddd353f872e82f6d339792d9f564521f20c7ec1f0386232d51c838bd079ad": {
+      "listingHash": "0x9bcddd353f872e82f6d339792d9f564521f20c7ec1f0386232d51c838bd079ad",
+      "listingID": "travelandleisure.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538168180",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x8288749f6ffac4e0b78dff244068eb8e0e2782647d376f6a9f4de78090b46a56",
+        "logIndex": 23,
+        "blockNumber": 6374639,
+        "blockTimestamp": 1537563380
+      }
+    },
     "0x5840fcdd6a3039336d145da437625a035aff142ea9489d00b0c59e624f992542": {
-      "votesFor": "40000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x0f125552293a51ec276816bd3c7a5db0e37b3816efe850b959e55a858a6fa7c8",
         "logIndex": 27,
@@ -934,15 +1588,31 @@
       "listingHash": "0x5840fcdd6a3039336d145da437625a035aff142ea9489d00b0c59e624f992542",
       "commitEndDate": "1534297775",
       "status": "removed",
-      "votesCommitted": "141000000000000",
+      "votesCommitted": "0",
       "owner": "0xbC411247092da7133eD5A4bFEa4cc71e54Fe16E0",
       "latestEvent": "_ChallengeSucceeded",
       "userVoteChoice": "",
-      "votesAgainst": "101000000000000",
+      "votesAgainst": "0",
       "pollID": "24",
-      "votesTotal": "141000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1534729775",
       "listingID": "HELLOFROMTOKYO.COM"
+    },
+    "0xdea5152a901e73ff90c16393a5b3c8d7e0fcc12181afeb42754ba4f2c46880a5": {
+      "latestBlockTxn": {
+        "txHash": "0x60d67b9bb5c5e5db0fcc6e2183ec316d0efb5bc5661e37bc5eee4f4278790e35",
+        "logIndex": 51,
+        "blockNumber": 5548510,
+        "blockTimestamp": 1525341254
+      },
+      "appEndDate": "1525216675",
+      "data": "marksandusky.com",
+      "whitelistBlockTimestamp": "1525341254",
+      "listingHash": "0xdea5152a901e73ff90c16393a5b3c8d7e0fcc12181afeb42754ba4f2c46880a5",
+      "status": "whitelisted",
+      "owner": "0xF0520845f700796B567cd740876f2e210f2468E5",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "marksandusky.com"
     },
     "0xdeef3736659be1b169589759ffe82c80683521202d91f423e0a5f91ecf5a33c4": {
       "votesFor": "0",
@@ -961,15 +1631,77 @@
       "listingHash": "0xdeef3736659be1b169589759ffe82c80683521202d91f423e0a5f91ecf5a33c4",
       "commitEndDate": "1526744518",
       "status": "removed",
-      "votesCommitted": "103200000000000",
+      "votesCommitted": "0",
       "owner": "0x9797585a2A6190c1EBfad1e12bB8046bF2DED86B",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "103100000000000",
+      "votesAgainst": "0",
       "pollID": "17",
-      "votesTotal": "103100000000000",
+      "votesTotal": "0",
       "revealEndDate": "1527176518",
       "listingID": "winthenet.com"
+    },
+    "0xd44670981dc9f500a2665726070670d396f42262bfe6e1c20200409f32df8447": {
+      "latestBlockTxn": {
+        "txHash": "0xe1ce1724a5050acd6fa32c313c5c38f60ed04eeb526b748eb56867e173063506",
+        "logIndex": 60,
+        "blockNumber": 5555991,
+        "blockTimestamp": 1525455629
+      },
+      "appEndDate": "1525328041",
+      "data": "twitch.tv",
+      "whitelistBlockTimestamp": "1525455629",
+      "listingHash": "0xd44670981dc9f500a2665726070670d396f42262bfe6e1c20200409f32df8447",
+      "status": "whitelisted",
+      "owner": "0x5fa079673749104641B0e59388a87c84c2843Fe6",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "twitch.tv"
+    },
+    "0x0fc036d58b074e901caadc4f74cb0888d4ca082ae49e75ea11da629c3962e25b": {
+      "latestBlockTxn": {
+        "txHash": "0x368fe7d4be2e1ebca3d7d0527dc0048e86bc8b7699ae08072a7921d55be4289f",
+        "logIndex": 138,
+        "blockNumber": 5572784,
+        "blockTimestamp": 1525707794
+      },
+      "appEndDate": "1525475249",
+      "data": "mensfitness.com",
+      "whitelistBlockTimestamp": "1525707794",
+      "listingHash": "0x0fc036d58b074e901caadc4f74cb0888d4ca082ae49e75ea11da629c3962e25b",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "mensfitness.com"
+    },
+    "0x9936818b6b068f5fd57f5011b0c203764a4e004e6a484bf7662b5c90ab85a891": {
+      "latestBlockTxn": {
+        "txHash": "0xdfe6399fc3e5735329d94b1f68ff3ba32c589870e649fc98a622987712d13d5d",
+        "logIndex": 32,
+        "blockNumber": 5572883,
+        "blockTimestamp": 1525709345
+      },
+      "appEndDate": "1525456626",
+      "data": "livenation.com",
+      "whitelistBlockTimestamp": "1525709345",
+      "listingHash": "0x9936818b6b068f5fd57f5011b0c203764a4e004e6a484bf7662b5c90ab85a891",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "livenation.com"
+    },
+    "0xa237507835b8d12aa614f14d02d03719c9ba1d3a0a529476c0966b72e0f271fd": {
+      "listingHash": "0xa237507835b8d12aa614f14d02d03719c9ba1d3a0a529476c0966b72e0f271fd",
+      "listingID": "veranda.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538173298",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xae1e2360e6c04b6f36d9f2f27ab54f66d5608308ebf0ff2c555c3e42eb164456",
+        "logIndex": 34,
+        "blockNumber": 6375027,
+        "blockTimestamp": 1537568498
+      }
     },
     "0x1570fd5038fd1b2c1524cfbcc7a6450f74c48421f0aeae3dde5bb857cf36b853": {
       "latestBlockTxn": {
@@ -1001,6 +1733,36 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "recode.net"
     },
+    "0x672ebc6ff1689e26bbb38ed165b23ace57c1a85c6ceab3b10bf98c7d275800bd": {
+      "listingHash": "0x672ebc6ff1689e26bbb38ed165b23ace57c1a85c6ceab3b10bf98c7d275800bd",
+      "listingID": "fitnessmagazine.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538167638",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xa2bec1bb9dd8da9e2933750aa29c9a116a4a4e22d07a9b974647916c1d0a1db0",
+        "logIndex": 18,
+        "blockNumber": 6374596,
+        "blockTimestamp": 1537562838
+      }
+    },
+    "0x33652fef2c276d9bf21f62d1ba5b4965837e936d5a90a797b4ce63e55fa7c5d8": {
+      "latestBlockTxn": {
+        "txHash": "0x04e698dc4fbf6596bca5aadbc71a0a365133e6aedd37f9f12018a920c295a97e",
+        "logIndex": 247,
+        "blockNumber": 5557625,
+        "blockTimestamp": 1525480372
+      },
+      "appEndDate": "1525459843",
+      "data": "refinery29.com",
+      "whitelistBlockTimestamp": "1525480372",
+      "listingHash": "0x33652fef2c276d9bf21f62d1ba5b4965837e936d5a90a797b4ce63e55fa7c5d8",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "refinery29.com"
+    },
     "0xf7172a299b74ba94b8cde508f87cd8d568a123d5eb7306eb85e43cbc4543b965": {
       "latestBlockTxn": {
         "txHash": "0x03774eb2a63fac09e99aaec917d16f954716d2ff8bc83abe815b9c626eff2215",
@@ -1030,6 +1792,34 @@
       "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "ticketmaster.com"
+    },
+    "0xc02bdb2e6b851dde04b9f2bd33bb10328613e3c55194c3dc1a7ab2746c99e8e8": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x3859375789fa03869e39cf465ade3da63bf0e3419ca0f1442d4dda80d26bdea5",
+        "logIndex": 17,
+        "blockNumber": 5572959,
+        "blockTimestamp": 1525710152
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525298643",
+      "removedBlockTimestamp": "1525653276",
+      "data": "tide.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xc02bdb2e6b851dde04b9f2bd33bb10328613e3c55194c3dc1a7ab2746c99e8e8",
+      "commitEndDate": "1525144794",
+      "status": "removed",
+      "votesCommitted": "0",
+      "owner": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "3",
+      "votesTotal": "0",
+      "revealEndDate": "1525576794",
+      "listingID": "tide.com"
     },
     "0x7620720012162fc6a25e44b80c97b5249d8f57b0d6ee346af2431bddf16ea3ef": {
       "latestBlockTxn": {
@@ -1079,13 +1869,13 @@
       "listingHash": "0x40ba2ff19a683ca7129c2940191e05518fa34d38e109eab8597a2c30aa3d02b5",
       "commitEndDate": "1528748244",
       "status": "removed",
-      "votesCommitted": "140000000000000",
+      "votesCommitted": "0",
       "owner": "0xa42d7Df7E96211e47e03785805C0F8eD1Ef5C7ea",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
-      "votesAgainst": "140000000000000",
+      "votesAgainst": "0",
       "pollID": "18",
-      "votesTotal": "140000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1529180244",
       "listingID": "worldlifestyle.com"
     },
@@ -1118,6 +1908,23 @@
         "blockTimestamp": 1537483388
       }
     },
+    "0xbd1d237dacb83f566801dc2ad4ac974e5c2e36cf6dcbdae61d2ab9f12f93bdea": {
+      "latestBlockTxn": {
+        "txHash": "0x15ee4343eb233aaffda016de8ba1a6e136e1002483efed80e3257040a5841114",
+        "logIndex": 31,
+        "blockNumber": 6344372,
+        "blockTimestamp": 1537130202
+      },
+      "appEndDate": "1525152072",
+      "removedBlockTimestamp": "1537130202",
+      "data": "buzzfeed.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0xbd1d237dacb83f566801dc2ad4ac974e5c2e36cf6dcbdae61d2ab9f12f93bdea",
+      "status": "removed",
+      "owner": "0x135293B01269BC8C2c6756a70404a7a8ab60730a",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "buzzfeed.com"
+    },
     "0x312b991aa6c9b63acfdee8fa2cabc417f5781be810157997f1e1fc50d026195e": {
       "latestBlockTxn": {
         "txHash": "0x2493fbe368f82b284839a61b601f4c1d64f3de2bfb4bfa143a436799ccb6525f",
@@ -1133,8 +1940,38 @@
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "history.com"
     },
+    "0x6363050d50f14d24a67bda2d5f4ccf7faa305b70d56b44eb7bcd122628704ac1": {
+      "listingHash": "0x6363050d50f14d24a67bda2d5f4ccf7faa305b70d56b44eb7bcd122628704ac1",
+      "listingID": "townandcountrymag.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538172261",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x696028122030299b693f86c98d7eedcd593e7283597c4a8eb9ffe197398acc18",
+        "logIndex": 21,
+        "blockNumber": 6374942,
+        "blockTimestamp": 1537567461
+      }
+    },
+    "0xc0924b1f382b7247a56cb8605c646d8c8a7c4dc25de0306ad020e33ec1ce144c": {
+      "latestBlockTxn": {
+        "txHash": "0x87c71be43fa46b0341a10629834b171346dda4dc0988c057ea4e77185cd9d1d4",
+        "logIndex": 110,
+        "blockNumber": 5572861,
+        "blockTimestamp": 1525709034
+      },
+      "appEndDate": "1525466616",
+      "data": "hulu.com",
+      "whitelistBlockTimestamp": "1525709034",
+      "listingHash": "0xc0924b1f382b7247a56cb8605c646d8c8a7c4dc25de0306ad020e33ec1ce144c",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "hulu.com"
+    },
     "0x185a88164ae05162c4c04ae5b3f71d6c4f488fb92236030585b8acb424f69290": {
-      "votesFor": "100000000000000",
+      "votesFor": "0",
       "latestBlockTxn": {
         "txHash": "0x1adab62390b70112aafac0ec51811de66c9d2c0d5c47d7e98e18765a4ce55474",
         "logIndex": 100,
@@ -1149,15 +1986,106 @@
       "listingHash": "0x185a88164ae05162c4c04ae5b3f71d6c4f488fb92236030585b8acb424f69290",
       "commitEndDate": "1530537887",
       "status": "whitelisted",
-      "votesCommitted": "103000000000000",
+      "votesCommitted": "0",
       "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
       "latestEvent": "_RewardClaimed",
       "userVoteChoice": "",
       "votesAgainst": "0",
       "pollID": "20",
-      "votesTotal": "100000000000000",
+      "votesTotal": "0",
       "revealEndDate": "1530969887",
       "listingID": "qz.com"
+    },
+    "0x03622e4c7fc162eb0f1bb4a56fd6429f51ed0eb8e15472327f27e608b0a4ea7e": {
+      "listingHash": "0x03622e4c7fc162eb0f1bb4a56fd6429f51ed0eb8e15472327f27e608b0a4ea7e",
+      "listingID": "delish.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538169543",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x2cbe7ea4cbdd30a51d2a504543e3bfcf5442e0d49d90aa89436c0238add59cfb",
+        "logIndex": 6,
+        "blockNumber": 6374746,
+        "blockTimestamp": 1537564743
+      }
+    },
+    "0x8d180d82fe830838b57c37e5cf60512f8d1d5129edcfe3c3afed46389cf52976": {
+      "latestBlockTxn": {
+        "txHash": "0x82353a5d90575a816e6c64e22698b5c0389e2f48578723d0b6159c80f07b40cd",
+        "logIndex": 179,
+        "blockNumber": 5572994,
+        "blockTimestamp": 1525710675
+      },
+      "appEndDate": "1525158879",
+      "removedBlockTimestamp": "1525710675",
+      "data": "wired.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x8d180d82fe830838b57c37e5cf60512f8d1d5129edcfe3c3afed46389cf52976",
+      "status": "removed",
+      "owner": "0x7609E21921C7EFCF73a588833Bf7709889291781",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "wired.com"
+    },
+    "0xca0ac754f0457b8ee35fe9b67cf78752fecfadb2f08b7a8e27b5f5e657d00934": {
+      "listingHash": "0xca0ac754f0457b8ee35fe9b67cf78752fecfadb2f08b7a8e27b5f5e657d00934",
+      "listingID": "harpersbazaar.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538171238",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x5d0d51bc555902f66b3d574f6d155ed206603cff2fc4f55326c9c2077541c983",
+        "logIndex": 93,
+        "blockNumber": 6374868,
+        "blockTimestamp": 1537566438
+      }
+    },
+    "0x27bcc74d84a70d04bf68f1bfb7232f7197978880fed409f080e8d23cb471ec76": {
+      "latestBlockTxn": {
+        "txHash": "0xc55ed62a74dec63e0ce6710f255441e68cb8feeb8e048f86919a2bef7ddeef8d",
+        "logIndex": 142,
+        "blockNumber": 5572837,
+        "blockTimestamp": 1525708517
+      },
+      "appEndDate": "1525471451",
+      "data": "purewow.com",
+      "whitelistBlockTimestamp": "1525708517",
+      "listingHash": "0x27bcc74d84a70d04bf68f1bfb7232f7197978880fed409f080e8d23cb471ec76",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "purewow.com"
+    },
+    "0x8af1346f6fe29262d7cec8f3aadd4ff6c598ac54381a44fda736bd2437558f3d": {
+      "latestBlockTxn": {
+        "txHash": "0x3fca9e3545e464a3cb869f52864388430e0992553f6b617e55ea60b30b63ed81",
+        "logIndex": 83,
+        "blockNumber": 5572906,
+        "blockTimestamp": 1525709536
+      },
+      "appEndDate": "1525455855",
+      "data": "fox.com",
+      "whitelistBlockTimestamp": "1525709536",
+      "listingHash": "0x8af1346f6fe29262d7cec8f3aadd4ff6c598ac54381a44fda736bd2437558f3d",
+      "status": "whitelisted",
+      "owner": "0x7193b82899461a6aC45B528d48d74355F54E7F56",
+      "latestEvent": "_ApplicationWhitelisted",
+      "listingID": "fox.com"
+    },
+    "0x2f10287427b93130d6fd63a861b4d16b430c829b29231fe55d37e1f56d915aeb": {
+      "listingHash": "0x2f10287427b93130d6fd63a861b4d16b430c829b29231fe55d37e1f56d915aeb",
+      "listingID": "marieclaire.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538171506",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x0067a760a54dcb07e0b5f0428ee5e8865426c1ce850f972b23ecb8655f186006",
+        "logIndex": 38,
+        "blockNumber": 6374885,
+        "blockTimestamp": 1537566706
+      }
     },
     "0xa2120b4e86bddfbc1bae7e941e112eb948d602afd3ab63561f045d547060dd63": {
       "latestBlockTxn": {
@@ -1173,6 +2101,79 @@
       "owner": "0xEEd81E14673370599f2abA7217DAa7dE4A5B4B77",
       "latestEvent": "_ApplicationWhitelisted",
       "listingID": "bitcoinmagazine.com"
+    },
+    "0x270bbab9bbc36202b144cc7619f5cdbeedf38979b59598ec9b87e3ea8186f884": {
+      "votesFor": "0",
+      "latestBlockTxn": {
+        "txHash": "0x5cce91d45d24f629f98ef55756e5e14a94b8c9a94d52e9c021ac272e4a7062c3",
+        "logIndex": 136,
+        "blockNumber": 5623315,
+        "blockTimestamp": 1526470000
+      },
+      "tokensToClaim": false,
+      "appEndDate": "1525195335",
+      "removedBlockTimestamp": "1525632645",
+      "data": "facebook.com",
+      "userVoteNumTokens": "0",
+      "challenger": "0xA64d893f83b22a3a99C84F883f53ce1D8C75cd5b",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x270bbab9bbc36202b144cc7619f5cdbeedf38979b59598ec9b87e3ea8186f884",
+      "commitEndDate": "1525120411",
+      "status": "removed",
+      "votesCommitted": "0",
+      "owner": "0xCf135B7D2578347283c036D52791bF12E5aa2159",
+      "latestEvent": "_RewardClaimed",
+      "userVoteChoice": "",
+      "votesAgainst": "0",
+      "pollID": "2",
+      "votesTotal": "0",
+      "revealEndDate": "1525552411",
+      "listingID": "facebook.com"
+    },
+    "0x50cec702c7ea82400bb1d4e8e32642f70470e817f10636dee4ec49dcf1d071f1": {
+      "listingHash": "0x50cec702c7ea82400bb1d4e8e32642f70470e817f10636dee4ec49dcf1d071f1",
+      "listingID": "ew.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538166967",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0xc4bf432f8153ffda4bbf9d32990e2c6e601dc645a885a1ba6527b55f65922995",
+        "logIndex": 14,
+        "blockNumber": 6374549,
+        "blockTimestamp": 1537562167
+      }
+    },
+    "0x489e8f44c22479f16b28f3d273ca25348c7374ec83443119b8ab562cc610fe2d": {
+      "listingHash": "0x489e8f44c22479f16b28f3d273ca25348c7374ec83443119b8ab562cc610fe2d",
+      "listingID": "instyle.com",
+      "owner": "0xF77B2D628A196564F8ea1CA04caED60aadE8eE13",
+      "status": "applied",
+      "appEndDate": "1538167779",
+      "latestEvent": "_Application",
+      "latestBlockTxn": {
+        "txHash": "0x9db4816f5b838a6e02f8b0c4c50f17dc5c6aa6a38cae43ac7f727c2b76f4ec67",
+        "logIndex": 20,
+        "blockNumber": 6374606,
+        "blockTimestamp": 1537562979
+      }
+    },
+    "0x471d944ab347005364c1d0de256d8c0216cf5d7369035ca66f255d000e4bf576": {
+      "latestBlockTxn": {
+        "txHash": "0x591b167a310963d45e2249319be3643aaf59994bb3187a002fac0a09587286ee",
+        "logIndex": 94,
+        "blockNumber": 5582559,
+        "blockTimestamp": 1525854207
+      },
+      "appEndDate": "1525346460",
+      "removedBlockTimestamp": "1525854207",
+      "data": "vice.com",
+      "whitelistBlockTimestamp": false,
+      "listingHash": "0x471d944ab347005364c1d0de256d8c0216cf5d7369035ca66f255d000e4bf576",
+      "status": "removed",
+      "owner": "0x2A3F7E5170Ea8Ca967f85f091eF84591f639E031",
+      "latestEvent": "_ListingRemoved",
+      "listingID": "vice.com"
     },
     "0x6876c2d18855e9348ba2757837d04f20eb360f3c37fad91e2057e6291642eeef": {
       "listingHash": "0x6876c2d18855e9348ba2757837d04f20eb360f3c37fad91e2057e6291642eeef",
@@ -1227,9 +2228,7 @@
         "blockNumber": 6101454,
         "blockTimestamp": 1533599875
       },
-      "appEndDate": {
-        "_bn": "5b68deb8"
-      },
+      "appEndDate": "1533599416",
       "data": "Mike Goldin",
       "whitelistBlockTimestamp": "1533599875",
       "listingHash": "0xa1b0c90bb32d5c46ec5baec637f8cc3d8071588be36eaca4d87fe5c9641a5138",
@@ -1245,9 +2244,7 @@
         "blockNumber": 6101456,
         "blockTimestamp": 1533599880
       },
-      "appEndDate": {
-        "_bn": "5b68df33"
-      },
+      "appEndDate": "1533599539",
       "data": "Isaac Kang",
       "whitelistBlockTimestamp": "1533599880",
       "listingHash": "0xc3e6b32eafe8eaf3c82676671859206d979c9235f99a0e6a771afd089cfebc79",
@@ -1263,9 +2260,7 @@
         "blockNumber": 6101458,
         "blockTimestamp": 1533599902
       },
-      "appEndDate": {
-        "_bn": "5b68df33"
-      },
+      "appEndDate": "1533599539",
       "data": "Kenan O'Neal",
       "whitelistBlockTimestamp": "1533599902",
       "listingHash": "0xfae99407cbd964fc7794ba0b5d1cd3d91facc31555061b9bf66831b175e01d51",
@@ -1281,9 +2276,7 @@
         "blockNumber": 6101459,
         "blockTimestamp": 1533599907
       },
-      "appEndDate": {
-        "_bn": "5b68dff3"
-      },
+      "appEndDate": "1533599731",
       "data": "Akua Nti",
       "whitelistBlockTimestamp": "1533599907",
       "listingHash": "0x9aafee18f339f0402a37b4ce3211048a8e65dd90297b17f4cbd0990f07c14f40",
@@ -1299,9 +2292,7 @@
         "blockNumber": 6101461,
         "blockTimestamp": 1533599916
       },
-      "appEndDate": {
-        "_bn": "5b68e02b"
-      },
+      "appEndDate": "1533599787",
       "data": "Andrea Morales-Coto",
       "whitelistBlockTimestamp": "1533599916",
       "listingHash": "0x96638b639acefed58575cd515cdaa3b19adad47e96b0e4cabbd0f240038d774d",
@@ -1317,9 +2308,7 @@
         "blockNumber": 6332163,
         "blockTimestamp": 1536957372
       },
-      "appEndDate": {
-        "_bn": "5b909b70"
-      },
+      "appEndDate": "1536203632",
       "data": "",
       "whitelistBlockTimestamp": "1536957372",
       "listingHash": "0x9ee8c147284dcec3d1e9e15862b5fa05eb29f4e67d934f119e31521fc1c043c7",
