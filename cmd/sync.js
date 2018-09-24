@@ -1,7 +1,4 @@
 const path = require('path')
-const fs = require('fs')
-const ethers = require('ethers')
-const sortBy = require('lodash/fp/sortBy')
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 const TCRListings = require('tcr-listings')

@@ -9,8 +9,13 @@ const detailedVersion = 'tcr-cli v1.0.0'
 // command handlers get called before argv gets returned
 const argv = initArgs(yargs, detailedVersion, handlers).argv
 const options = {
-  verbose: argv.v,
-  number: argv.n,
+  tcr: argv.t,
+  network: argv.n,
+  pathIndex: argv.i,
+}
+
+if (argv.v) {
+  console.log('options:', options)
 }
 
 process.on('unhandledRejection', function(error) {
